@@ -51,6 +51,11 @@
       "sourceType": "github",
       "computedHash": "229853d175a525e3a6304eeef51cb429c70586fb2f99283e4147505bbb848229"
     },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "516bd2154eb843a8240e43d5b285229129853114ad7075a5e141e1c08e408c84"
+    },
     "turborepo": {
       "source": "vercel/turborepo",
       "sourceType": "github",

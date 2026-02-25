@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#CCFBF1"/>
+  <circle cx="100" cy="80" r="40" fill="#334155"/>
+  <path d="M100 130 Q160 130 160 200 H40 Q40 130 100 130" fill="#0F172A"/>
+  <!-- Long hair -->
+  <path d="M50 80 Q50 20 100 20 Q150 20 150 80 V 140 H 130 V 80 Q 130 40 100 40 Q 70 40 70 80 V 140 H 50 Z" fill="#0F172A"/>
+</svg>

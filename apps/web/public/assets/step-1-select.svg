@@ -1,0 +1,14 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" fill="#FFFFFF"/>
+  <!-- Form Background -->
+  <rect x="56" y="48" width="144" height="160" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="4"/>
+  <!-- Form Lines -->
+  <rect x="80" y="80" width="96" height="16" rx="4" fill="#CBD5E1"/>
+  <rect x="80" y="112" width="96" height="16" rx="4" fill="#CBD5E1"/>
+  <rect x="80" y="144" width="64" height="16" rx="4" fill="#CBD5E1"/>
+  
+  <!-- Hand Cursor -->
+  <path d="M168 160L184 192L160 208L144 176" fill="#00D4AA"/>
+  <path d="M168 160L144 176L136 152L168 160" fill="#00D4AA"/>
+  <circle cx="168" cy="160" r="24" fill="#00D4AA" fill-opacity="0.2"/>
+</svg>

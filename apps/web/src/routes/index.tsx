@@ -1,50 +1,61 @@
-import { api } from "@dsc-website/backend/convex/_generated/api";
 import { createFileRoute } from "@tanstack/react-router";
-import { useQuery } from "convex/react";
+import {
+  SiteHeader,
+  HeroSection,
+  HowItWorks,
+  ProductCards,
+  UseCases,
+  PricingTable,
+  Testimonials,
+  TrustSection,
+  FAQSection,
+  PartnerCTA,
+  SiteFooter,
+  WhatsAppButton,
+} from "@/components/marketing";
 
 export const Route = createFileRoute("/")({
   component: HomeComponent,
 });
 
-const TITLE_TEXT = `
- ██████╗ ███████╗████████╗████████╗███████╗██████╗
- ██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
- ██████╔╝█████╗     ██║      ██║   █████╗  ██████╔╝
- ██╔══██╗██╔══╝     ██║      ██║   ██╔══╝  ██╔══██╗
- ██████╔╝███████╗   ██║      ██║   ███████╗██║  ██║
- ╚═════╝ ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝
-
- ████████╗    ███████╗████████╗ █████╗  ██████╗██╗  ██╗
- ╚══██╔══╝    ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝
-    ██║       ███████╗   ██║   ███████║██║     █████╔╝
-    ██║       ╚════██║   ██║   ██╔══██║██║     ██╔═██╗
-    ██║       ███████║   ██║   ██║  ██║╚██████╗██║  ██╗
-    ╚═╝       ╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
- `;
-
 function HomeComponent() {
-  const healthCheck = useQuery(api.healthCheck.get);
-
   return (
-    <div className="container mx-auto max-w-3xl px-4 py-2">
-      <pre className="overflow-x-auto font-mono text-sm">{TITLE_TEXT}</pre>
-      <div className="grid gap-6">
-        <section className="rounded-lg border p-4">
-          <h2 className="mb-2 font-medium">API Status</h2>
-          <div className="flex items-center gap-2">
-            <div
-              className={`h-2 w-2 rounded-full ${healthCheck === "OK" ? "bg-green-500" : healthCheck === undefined ? "bg-orange-400" : "bg-red-500"}`}
-            />
-            <span className="text-sm text-muted-foreground">
-              {healthCheck === undefined
-                ? "Checking..."
-                : healthCheck === "OK"
-                  ? "Connected"
-                  : "Error"}
-            </span>
-          </div>
-        </section>
-      </div>
+    <div className="min-h-screen">
+      <SiteHeader />
+
+      <main>
+        {/* Hero: Interactive buy form + trust signals */}
+        <HeroSection />
+
+        {/* How It Works: 3-step process */}
+        <HowItWorks />
+
+        {/* Product Cards: Class 3, DGFT, Combo, Foreign */}
+        <ProductCards />
+
+        {/* Use Cases: GST, MCA, IT, e-Tender, etc. */}
+        <UseCases />
+
+        {/* Pricing Table: Full comparison */}
+        <PricingTable />
+
+        {/* Testimonials: Customer reviews */}
+        <Testimonials />
+
+        {/* Trust & Security: Badges, certifications */}
+        <TrustSection />
+
+        {/* FAQ Accordion */}
+        <FAQSection />
+
+        {/* Partner CTA: Join program */}
+        <PartnerCTA />
+      </main>
+
+      <SiteFooter />
+
+      {/* Floating WhatsApp button */}
+      <WhatsAppButton />
     </div>
   );
 }
