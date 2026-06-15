@@ -33,7 +33,7 @@ export function UseCases() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10">
           <h2 className="font-display font-bold text-2xl sm:text-3xl text-foreground mb-2">
-            One DSC. Every Government Portal.
+            DSC For Every Government Portal.
           </h2>
           <p className="text-sm text-muted-foreground max-w-lg mx-auto">
             Our digital signatures are accepted across all major Indian

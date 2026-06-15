@@ -2,6 +2,7 @@ import {
   Phone,
   Mail,
   MapPin,
+  MessageCircle,
   ExternalLink,
   Twitter,
   Linkedin,
@@ -14,9 +15,8 @@ import {
 const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png" },
-  { name: "VSign", src: "/assets/partner-vsign-favicon.png" },
   { name: "Pantasign", src: "/assets/partner-pantasign-white.svg" },
-  { name: "Safescrypt", src: "/assets/partner-safescrypt.svg" },
+  { name: "SignX", src: "/assets/partner-signx.svg" },
 ] as const;
 
 /* ─── USB token brands ─── */
@@ -25,7 +25,6 @@ const TOKEN_BRANDS = [
   { name: "Proxkey", src: "/assets/token-proxkey-logo.svg" },
   { name: "MToken", src: "/assets/token-mtoken.svg" },
   { name: "TrustKey", src: "/assets/token-trustkey.svg" },
-  { name: "SafeNet 5100", src: "/assets/token-safenet-logo.png" },
 ] as const;
 
 /* ─── Government portals ─── */
@@ -43,11 +42,10 @@ const GOV_PORTALS = [
 /* ─── Footer link columns ─── */
 const FOOTER_LINKS = {
   "Buy DSC": [
-    { label: "Class 3 Individual", href: "/products/class-3-individual-dsc" },
-    { label: "Class 3 Organization", href: "/products/class-3-organization-dsc" },
-    { label: "Class 3 Combo", href: "/products/class-3-combo-dsc" },
+    { label: "Class 3 DSC", href: "/products/class-3-individual-dsc" },
     { label: "DGFT DSC", href: "/products/dgft-dsc" },
-    { label: "Foreign National", href: "/products/foreign-national-dsc" },
+    { label: "Foreign National DSC", href: "/products/foreign-national-dsc" },
+    { label: "Document Signer Certificate", href: "/products/document-signer-certificate" },
     { label: "ePass 2003 Token", href: "/products/epass-2003-usb-token" },
     { label: "All USB Tokens", href: "/products#usb-tokens" },
     { label: "All Products", href: "/products" },
@@ -56,11 +54,10 @@ const FOOTER_LINKS = {
   "Our CAs": [
     { label: "eMudhra", href: "/partners#emudhra" },
     { label: "Capricorn", href: "/partners#capricorn" },
-    { label: "VSign", href: "/partners#vsign" },
     { label: "Pantasign", href: "/partners#pantasign" },
-    { label: "Safescrypt", href: "/partners#safescrypt" },
+    { label: "SignX", href: "/partners#signx" },
     { label: "All CAs", href: "/partners" },
-    { label: "Partner Program", href: "/partners#partner-program" },
+    { label: "Become Our Partner", href: "/become-partner" },
   ],
   "Quick Links": [
     { label: "How It Works", href: "/#how-it-works" },
@@ -144,18 +141,27 @@ export function SiteFooter() {
               {/* Contact info */}
               <div className="space-y-2.5 mb-6">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919324462329"
                   className="flex items-center gap-2.5 text-sm text-white/60 hover:text-brand-cobalt-bright transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5 shrink-0" />
-                  +91 98765 43210
+                  +91 93244 62329
                 </a>
                 <a
-                  href="mailto:support@signsecure.in"
+                  href="https://wa.me/917990740623"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2.5 text-sm text-white/60 hover:text-brand-cobalt-bright transition-colors"
+                >
+                  <MessageCircle className="w-3.5 h-3.5 shrink-0" />
+                  +91 79907 40623 (WhatsApp)
+                </a>
+                <a
+                  href="mailto:dsc@signsecure.in"
                   className="flex items-center gap-2.5 text-sm text-white/60 hover:text-brand-cobalt-bright transition-colors"
                 >
                   <Mail className="w-3.5 h-3.5 shrink-0" />
-                  support@signsecure.in
+                  dsc@signsecure.in
                 </a>
                 <div className="flex items-start gap-2.5 text-sm text-white/60">
                   <MapPin className="w-3.5 h-3.5 shrink-0 mt-0.5" />

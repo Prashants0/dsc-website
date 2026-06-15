@@ -18,7 +18,7 @@ const PRODUCTS = [
     price: 899,
     originalPrice: 1599,
     popular: false,
-    cas: ["eMudhra", "Capricorn", "VSign", "Pantasign", "Safescrypt"],
+    cas: ["eMudhra", "Capricorn", "Pantasign", "SignX"],
     uses: [
       "GST Filing",
       "Income Tax e-Filing",
@@ -37,7 +37,7 @@ const PRODUCTS = [
     price: 1099,
     originalPrice: 1999,
     popular: true,
-    cas: ["eMudhra", "Capricorn", "VSign", "Pantasign", "Safescrypt"],
+    cas: ["eMudhra", "Capricorn", "Pantasign", "SignX"],
     uses: [
       "e-Tendering / GEM",
       "MCA / ROC Filing",

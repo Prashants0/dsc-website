@@ -9,9 +9,9 @@ const TRUST_ITEMS = [
   },
   {
     icon: Award,
-    title: "ISO 27001 Certified",
+    title: "CCA Approved Process",
     description:
-      "Our CA partners maintain the highest information security standards for data protection.",
+      "Every certificate is issued through CCA-licensed Certifying Authorities following Government of India security standards.",
   },
   {
     icon: Lock,
@@ -42,9 +42,8 @@ const TRUST_ITEMS = [
 const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png", tagline: "India's Largest CA" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png", tagline: "Enterprise Trusted" },
-  { name: "VSign", src: "/assets/partner-vsign-favicon.png", tagline: "Reliable & Fast" },
   { name: "Pantasign", src: "/assets/partner-pantasign-white.svg", tagline: "Flexible Solutions" },
-  { name: "Safescrypt", src: "/assets/partner-safescrypt.svg", tagline: "Sify Backed" },
+  { name: "SignX", src: "/assets/partner-signx.svg", tagline: "Fast & Reliable" },
 ];
 
 const TOKEN_BRANDS = [
@@ -52,7 +51,6 @@ const TOKEN_BRANDS = [
   { name: "Proxkey", type: "Mid-range", src: "/assets/token-proxkey-logo.svg" },
   { name: "MToken", type: "Budget", src: "/assets/token-mtoken.svg" },
   { name: "TrustKey", type: "Mid-range", src: "/assets/token-trustkey.svg" },
-  { name: "SafeNet 5100", type: "Premium", src: "/assets/token-safenet-logo.png" },
 ];
 
 export function TrustSection() {

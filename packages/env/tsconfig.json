@@ -1,3 +1,0 @@
-{
-  "extends": "@dsc-website/config/tsconfig.base.json"
-}

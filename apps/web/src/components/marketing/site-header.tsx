@@ -1,5 +1,7 @@
+"use client";
+
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import {
   ChevronDown,
   ChevronRight,
@@ -7,6 +9,7 @@ import {
   X,
   Phone,
   Mail,
+  MessageCircle,
   Package,
   FileCheck,
   Building2,
@@ -18,6 +21,8 @@ import {
   HelpCircle,
   ShieldCheck,
   ExternalLink,
+  Stamp,
+  Handshake,
   Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -27,9 +32,8 @@ import { Button } from "@/components/ui/button";
 const CA_PARTNERS = [
   "eMudhra",
   "Capricorn",
-  "VSign",
   "Pantasign",
-  "Safescrypt",
+  "SignX",
 ] as const;
 
 const DSC_PRODUCTS = [
@@ -63,6 +67,25 @@ const DSC_PRODUCTS = [
     href: "/products/foreign-national-dsc",
     icon: FileCheck,
   },
+  {
+    label: "Document Signer Certificate",
+    description: "Bulk & automated document signing",
+    href: "/products/document-signer-certificate",
+    icon: Stamp,
+  },
+] as const;
+
+const OTHER_PRODUCTS = [
+  { label: "DSC for GST", href: "/products/dsc-for-gst" },
+  { label: "DSC for MCA", href: "/products/dsc-for-mca" },
+  { label: "DSC for Income Tax", href: "/products/dsc-for-income-tax" },
+  { label: "DSC for e-Tendering", href: "/products/dsc-for-e-tendering" },
+  { label: "DSC for EPFO", href: "/products/dsc-for-epfo" },
+  { label: "DSC for ICEGATE", href: "/products/dsc-for-icegate" },
+  { label: "DSC for DGFT", href: "/products/dsc-for-dgft" },
+  { label: "DSC for Trademark", href: "/products/dsc-for-trademark" },
+  { label: "DSC for GeM Registration", href: "/products/dsc-for-gem-registration" },
+  { label: "DSC for IRCTC", href: "/products/dsc-for-irctc" },
 ] as const;
 
 const TOKEN_LINKS = [
@@ -79,9 +102,9 @@ const TOKEN_LINKS = [
     icon: UsbIcon,
   },
   {
-    label: "SafeNet 5100",
-    description: "Enterprise-grade by Thales",
-    href: "/products/safenet-5100-usb-token",
+    label: "MToken",
+    description: "Compact & budget-friendly token",
+    href: "/products/mtoken-usb-token",
     icon: UsbIcon,
   },
 ] as const;
@@ -129,25 +152,25 @@ function AnnouncementBar() {
         {/* Right: Contact & Track */}
         <div className="flex items-center gap-4 shrink-0 ml-6">
           <a
-            href="tel:+919876543210"
+            href="tel:+919324462329"
             className="flex items-center gap-1.5 text-white/70 hover:text-white transition-colors"
-            aria-label="Call us at +91 98765 43210"
+            aria-label="Call us at +91 93244 62329"
           >
             <Phone className="w-3 h-3" />
-            <span>+91 98765 43210</span>
+            <span>+91 93244 62329</span>
           </a>
           <span className="text-white/20">|</span>
           <a
-            href="mailto:support@signsecure.in"
+            href="mailto:dsc@signsecure.in"
             className="flex items-center gap-1.5 text-white/70 hover:text-white transition-colors"
-            aria-label="Email support@signsecure.in"
+            aria-label="Email dsc@signsecure.in"
           >
             <Mail className="w-3 h-3" />
-            <span className="hidden lg:inline">support@signsecure.in</span>
+            <span className="hidden lg:inline">dsc@signsecure.in</span>
           </a>
           <span className="text-white/20">|</span>
           <Link
-            to="/dashboard"
+            href="/contact"
             className="flex items-center gap-1.5 text-brand-saffron hover:text-brand-saffron-bright transition-colors font-semibold"
             aria-label="Track your order"
           >
@@ -204,13 +227,13 @@ function MegaMenu({ onClose }: { onClose: () => void }) {
   return (
     <div
       ref={ref}
-      className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[680px] bg-card/98 backdrop-blur-2xl border border-border/60 rounded-2xl shadow-2xl shadow-brand-navy/10 animate-fade-up p-1.5"
+      className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[900px] max-w-[calc(100vw-2rem)] bg-card/98 backdrop-blur-2xl border border-border/60 rounded-2xl shadow-2xl shadow-brand-navy/10 animate-fade-up p-1.5"
       role="menu"
       aria-label="Buy DSC products"
     >
-      <div className="grid grid-cols-5 gap-1">
-        {/* Left column — DSC types (3 cols) */}
-        <div className="col-span-3 p-3">
+      <div className="grid grid-cols-12 gap-1">
+        {/* Column 1 — Certificate products */}
+        <div className="col-span-4 p-3">
           <p className="text-[10px] uppercase tracking-[0.15em] text-muted-foreground font-semibold mb-3 px-2">
             Digital Signature Certificates
           </p>
@@ -220,7 +243,7 @@ function MegaMenu({ onClose }: { onClose: () => void }) {
                 key={product.label}
                 href={product.href}
                 onClick={onClose}
-                className="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-muted/80 transition-colors group"
+                className="flex items-start gap-3 px-3 py-2 rounded-xl hover:bg-muted/80 transition-colors group"
                 role="menuitem"
               >
                 <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand-cobalt/10 text-brand-cobalt group-hover:bg-brand-cobalt/15 transition-colors">
@@ -239,8 +262,29 @@ function MegaMenu({ onClose }: { onClose: () => void }) {
           </div>
         </div>
 
-        {/* Right column — Tokens & quick links (2 cols) */}
-        <div className="col-span-2 bg-muted/40 rounded-xl p-3">
+        {/* Column 2 — Other Products (by use case) */}
+        <div className="col-span-4 p-3 border-l border-border/50">
+          <p className="text-[10px] uppercase tracking-[0.15em] text-muted-foreground font-semibold mb-3 px-2">
+            Other Products
+          </p>
+          <div className="space-y-0.5">
+            {OTHER_PRODUCTS.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                onClick={onClose}
+                className="flex items-center gap-2.5 px-3 py-1.5 rounded-lg text-sm text-foreground/80 hover:text-brand-cobalt hover:bg-muted/80 transition-colors group"
+                role="menuitem"
+              >
+                <FileCheck className="w-3.5 h-3.5 text-brand-cobalt/50 group-hover:text-brand-cobalt transition-colors shrink-0" />
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Column 3 — Hardware & quick links */}
+        <div className="col-span-4 bg-muted/40 rounded-xl p-3">
           <p className="text-[10px] uppercase tracking-[0.15em] text-muted-foreground font-semibold mb-3 px-2">
             Hardware
           </p>
@@ -249,7 +293,7 @@ function MegaMenu({ onClose }: { onClose: () => void }) {
               key={item.label}
               href={item.href}
               onClick={onClose}
-              className="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-background/80 transition-colors group"
+              className="flex items-start gap-3 px-3 py-2 rounded-xl hover:bg-background/80 transition-colors group"
               role="menuitem"
             >
               <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand-saffron/10 text-brand-saffron group-hover:bg-brand-saffron/15 transition-colors">
@@ -293,7 +337,7 @@ function MegaMenu({ onClose }: { onClose: () => void }) {
               Not sure which DSC?
             </p>
             <p className="text-[11px] text-muted-foreground mt-0.5">
-              Our experts can help you choose.
+              Get a free consultation from our experts.
             </p>
             <a
               href="/contact"
@@ -415,6 +459,22 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
                     </div>
                   </a>
                 ))}
+
+                <p className="px-4 pt-3 pb-1 text-[10px] uppercase tracking-[0.15em] text-muted-foreground font-semibold">
+                  Other Products
+                </p>
+                {OTHER_PRODUCTS.map((item) => (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    onClick={onClose}
+                    className="flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm text-foreground/80 hover:bg-muted hover:text-foreground transition-colors"
+                    role="menuitem"
+                  >
+                    <FileCheck className="w-3.5 h-3.5 text-brand-cobalt/50 shrink-0" />
+                    {item.label}
+                  </a>
+                ))}
               </div>
             )}
           </div>
@@ -437,21 +497,24 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
 
         {/* Mobile CTAs */}
         <div className="space-y-3">
-          <Link to="/products" onClick={onClose} className="block">
+          <Link href="/products" onClick={onClose} className="block">
             <Button
               className="w-full h-12 rounded-xl bg-brand-cobalt text-white font-semibold text-base hover:bg-brand-cobalt-bright shimmer"
             >
               Buy DSC Now
             </Button>
           </Link>
-          <Link to="/dashboard" onClick={onClose} className="block">
+          <a href="/become-partner" onClick={onClose} className="block">
             <Button
               variant="outline"
               className="w-full h-12 rounded-xl text-base font-semibold"
             >
-              Sign In
+              <span className="flex items-center gap-2">
+                <Handshake className="w-4 h-4" />
+                Become Our Partner
+              </span>
             </Button>
-          </Link>
+          </a>
         </div>
 
         {/* Divider */}
@@ -460,7 +523,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
         {/* Contact info */}
         <div className="space-y-4">
           <a
-            href="tel:+919876543210"
+            href="tel:+919324462329"
             className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-muted">
@@ -468,11 +531,25 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
             </div>
             <div>
               <p className="text-xs text-muted-foreground">Call us</p>
-              <p className="font-semibold text-foreground">+91 98765 43210</p>
+              <p className="font-semibold text-foreground">+91 93244 62329</p>
             </div>
           </a>
           <a
-            href="mailto:support@signsecure.in"
+            href="https://wa.me/917990740623"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#25D366]/10">
+              <MessageCircle className="w-4 h-4 text-[#25D366]" />
+            </div>
+            <div>
+              <p className="text-xs text-muted-foreground">WhatsApp</p>
+              <p className="font-semibold text-foreground">+91 79907 40623</p>
+            </div>
+          </a>
+          <a
+            href="mailto:dsc@signsecure.in"
             className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-muted">
@@ -481,12 +558,12 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
             <div>
               <p className="text-xs text-muted-foreground">Email</p>
               <p className="font-semibold text-foreground">
-                support@signsecure.in
+                dsc@signsecure.in
               </p>
             </div>
           </a>
           <Link
-            to="/dashboard"
+            href="/contact"
             onClick={onClose}
             className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
@@ -657,17 +734,20 @@ export function SiteHeader() {
                 </span>
               </div>
 
-              <Link to="/dashboard">
+              <a href="/become-partner">
                 <Button
                   variant="outline"
                   size="sm"
                   className="rounded-lg font-semibold"
                 >
-                  Sign In
+                  <span className="flex items-center gap-1.5">
+                    <Handshake className="w-3.5 h-3.5" />
+                    Become Our Partner
+                  </span>
                 </Button>
-              </Link>
+              </a>
 
-              <Link to="/products">
+              <Link href="/products">
                 <Button
                   size="sm"
                   className="rounded-lg bg-brand-cobalt text-white font-semibold hover:bg-brand-cobalt-bright shimmer"

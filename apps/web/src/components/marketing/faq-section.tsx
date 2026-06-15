@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { ChevronDown, HelpCircle, MessageCircle } from "lucide-react";
 
@@ -111,7 +113,7 @@ export function FAQSection() {
             Still have questions?
           </p>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/917990740623"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-brand-cobalt/25 bg-brand-cobalt/[0.04] text-brand-cobalt font-semibold text-sm hover:bg-brand-cobalt/[0.08] transition-colors"

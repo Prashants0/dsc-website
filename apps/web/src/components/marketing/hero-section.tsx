@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useMemo } from "react";
 import {
   Shield,
@@ -18,6 +20,7 @@ import { Button } from "@/components/ui/button";
 const CLASS_OPTIONS = [
   { value: "class3", label: "Class 3" },
   { value: "dgft", label: "DGFT" },
+  { value: "document-signer", label: "Doc Signer" },
 ] as const;
 
 const USER_OPTIONS = [
@@ -64,19 +67,26 @@ const PRICES: Record<string, number> = {
   "dgft-organization-signature-3": 3599,
 };
 
+/* Document Signer Certificate — organization-level, priced by validity.
+   Indicative starting prices; adjust as needed. */
+const DOC_SIGNER_PRICES: Record<string, number> = {
+  "1": 2999,
+  "2": 3999,
+  "3": 4999,
+};
+
 const TRUST_BADGES = [
   { icon: ShieldCheck, text: "CCA Licensed" },
   { icon: Clock, text: "DSC in 30 Min" },
-  { icon: Headphones, text: "24/7 Support" },
+  { icon: Headphones, text: "Free Online Support" },
   { icon: Lock, text: "2048-bit RSA" },
 ];
 
 const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png" },
-  { name: "VSign", src: "/assets/partner-vsign-favicon.png" },
   { name: "Pantasign", src: "/assets/partner-pantasign-white.svg" },
-  { name: "Safescrypt", src: "/assets/partner-safescrypt.svg" },
+  { name: "SignX", src: "/assets/partner-signx.svg" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -130,6 +140,9 @@ export function HeroSection() {
   const [validity, setValidity] = useState("1");
 
   const price = useMemo(() => {
+    if (classType === "document-signer") {
+      return DOC_SIGNER_PRICES[validity] || 2999;
+    }
     const key = `${classType}-${userType}-${certType}-${validity}`;
     return PRICES[key] || 899;
   }, [classType, userType, certType, validity]);
@@ -160,7 +173,7 @@ export function HeroSection() {
             <div className="animate-fade-up inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-brand-cobalt/[0.08] border border-brand-cobalt/20 mb-8">
               <Shield className="w-4 h-4 text-brand-cobalt-bright" />
               <span className="text-xs font-semibold text-brand-cobalt-bright tracking-wide">
-                Govt. Licensed Multi-CA Partner &middot; ISO Certified
+                Govt. Licensed Multi-CA Partner
               </span>
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-cobalt-bright opacity-60" />
@@ -180,7 +193,7 @@ export function HeroSection() {
             {/* Subtitle */}
             <p className="text-lg leading-relaxed text-white/55 mb-8 animate-fade-up delay-200 max-w-lg">
               100% paperless. Government-approved Class&nbsp;3, DGFT &amp; Combo
-              DSCs from eMudhra, Capricorn, VSign, Pantasign &amp; Safescrypt.
+              DSCs from eMudhra, Capricorn, Pantasign &amp; SignX.
               Issued in <strong className="text-white/80">30&nbsp;minutes</strong>.
             </p>
 
@@ -323,20 +336,16 @@ export function HeroSection() {
 
                 {/* CTAs */}
                 <div className="space-y-2.5">
-                  <Button
-                    className="w-full h-12 rounded-xl bg-brand-saffron hover:bg-brand-saffron-bright text-brand-navy-deep font-bold text-sm transition-all shimmer group cursor-pointer"
-                  >
-                    <span className="flex items-center gap-2">
-                      Buy Now &mdash; Get DSC in 30 Min
-                      <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                    </span>
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    className="w-full h-10 rounded-xl text-white/50 hover:text-white/80 hover:bg-white/[0.04] text-xs cursor-pointer"
-                  >
-                    Or pay just &#8377;499 advance &mdash; rest after approval
-                  </Button>
+                  <a href="/contact" className="block">
+                    <Button
+                      className="w-full h-12 rounded-xl bg-brand-saffron hover:bg-brand-saffron-bright text-brand-navy-deep font-bold text-sm transition-all shimmer group cursor-pointer"
+                    >
+                      <span className="flex items-center gap-2">
+                        Get Free Consultation To Buy DSC
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                      </span>
+                    </Button>
+                  </a>
                 </div>
 
                 {/* Bottom trust strip */}
