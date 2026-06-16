@@ -67,7 +67,7 @@ export function TokenBulkPricingCard({
       </div>
       <div className="mt-6 pt-6 border-t border-white/[0.06] flex items-center gap-2 text-sm text-white/50">
         <Truck className="w-4 h-4 text-brand-emerald" />
-        Free shipping across India on bulk orders
+        Doorstep delivery across India on bulk orders
       </div>
     </div>
   );
@@ -102,7 +102,7 @@ export function TokenBulkPricingSection({
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed">
             Buying tokens in volume? Get the best per-unit price on the{" "}
-            {tokenName}. Prices below are inclusive of GST with free shipping
+            {tokenName}. Prices below are inclusive of GST with doorstep delivery
             across India.
           </p>
         </div>
@@ -188,7 +188,7 @@ export function TokenBulkPricingSection({
 
         <p className="text-center text-xs text-muted-foreground mt-6 flex items-center justify-center gap-1.5">
           <Check className="w-3.5 h-3.5 text-brand-emerald" />
-          All tokens are CCA-approved, FIPS-certified and ship free across India.
+          All tokens are CCA-approved, FIPS-certified and delivered across India.
         </p>
       </div>
     </section>

@@ -340,7 +340,7 @@ const RELATED_PRODUCTS = [
   {
     title: "USB Crypto Tokens",
     description:
-      "FIPS-certified hardware tokens to securely store your DSC. Multiple brands available with free shipping.",
+      "FIPS-certified hardware tokens to securely store your DSC. ePass, Proxkey & MToken available.",
     price: 500,
     href: "/products#usb-tokens",
     badge: "Hardware",
@@ -553,7 +553,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                     "2048-bit RSA encryption standard",
                     "Free re-issuance within validity",
                     "Dedicated Support",
-                    "Free USB token shipping (Pan India)",
+                    "USB token delivery (Pan India)",
                   ].map((item) => (
                     <li
                       key={item}
@@ -827,7 +827,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                   icon: Download,
                   title: "DSC Issued",
                   description:
-                    "Your Organization DSC is issued and loaded onto a USB crypto token. Token is shipped free across India. Download link also sent via email.",
+                    "Your Organization DSC is issued and loaded onto a USB crypto token. Token is delivered across India. Download link also sent via email.",
                 },
               ].map(({ step, icon: Icon, title, description }) => (
                 <div key={step} className="relative">
@@ -1245,7 +1245,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </span>
               <span className="flex items-center gap-1.5">
                 <Truck className="w-3.5 h-3.5" />
-                Free shipping
+                Doorstep Delivery
               </span>
               <span className="flex items-center gap-1.5">
                 <Headset className="w-3.5 h-3.5" />

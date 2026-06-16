@@ -197,7 +197,7 @@ const APPLY_STEPS = [
     step: 4,
     icon: Download,
     title: "DSC Issued on USB Token",
-    desc: "Your DGFT Digital Signature Certificate is issued and loaded onto a FIPS-certified USB crypto token. Token is shipped free of charge across India.",
+    desc: "Your DGFT Digital Signature Certificate is issued and loaded onto a FIPS-certified USB crypto token. Token is delivered across India.",
   },
 ];
 
@@ -255,7 +255,7 @@ const FEATURES = [
   {
     icon: UsbIcon,
     title: "Free USB Crypto Token",
-    desc: "Every DGFT DSC comes with a free FIPS-certified USB crypto token. Free pan-India shipping included with every order.",
+    desc: "Every DGFT DSC comes with a free FIPS-certified USB crypto token. Pan-India delivery available.",
   },
   {
     icon: Zap,
@@ -339,7 +339,7 @@ const RELATED_PRODUCTS = [
   },
   {
     title: "USB Crypto Tokens",
-    desc: "FIPS-certified USB tokens from ePass, Proxkey, MToken & more. Starting at Rs. 500.",
+    desc: "FIPS-certified USB tokens from ePass, Proxkey & MToken. Starting at Rs. 500.",
     link: "/products",
     badge: "Hardware",
     badgeColor: "bg-brand-emerald",
@@ -979,7 +979,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                           <ul className="space-y-1.5 mb-4">
                             {[
                               "Free USB crypto token",
-                              "Free pan-India shipping",
+                              "Pan-India Delivery",
                               "DGFT portal compatible",
                               "eKYC-based issuance",
                             ].map((f) => (
@@ -1179,7 +1179,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </span>
               <span className="flex items-center gap-1.5">
                 <Truck className="w-3.5 h-3.5" />
-                Free Shipping
+                Doorstep Delivery
               </span>
               <span className="flex items-center gap-1.5">
                 <Headset className="w-3.5 h-3.5" />

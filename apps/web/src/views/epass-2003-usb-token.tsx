@@ -419,7 +419,7 @@ export default function EPass2003Page() {
                   </span>
                   <span className="text-sm text-white/40">incl. GST</span>
                   <span className="text-xs font-bold bg-brand-emerald/20 text-brand-emerald px-3 py-1 rounded-full">
-                    Free Shipping
+                    Doorstep Delivery
                   </span>
                 </div>
 
@@ -1064,7 +1064,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-emerald/[0.12] border border-brand-emerald/[0.2] mb-6">
               <UsbIcon className="w-3.5 h-3.5 text-brand-emerald" />
               <span className="text-xs font-semibold text-brand-emerald tracking-wide uppercase">
-                &#8377;500 incl. GST &bull; Free Shipping
+                &#8377;500 incl. GST &bull; Doorstep Delivery
               </span>
             </div>
 
@@ -1131,7 +1131,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 "FIPS 140-2 Certified",
                 "Auto-Detect Driver",
                 "All CAs Supported",
-                "Free Shipping",
+                "Doorstep Delivery",
                 "Dedicated Support",
               ].map((item) => (
                 <span key={item} className="flex items-center gap-1.5">

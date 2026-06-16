@@ -250,7 +250,7 @@ export function ProductCards() {
         {/* Additional note */}
         <p className="text-center text-xs text-muted-foreground mt-8">
           All prices are inclusive of GST. USB Token available as add-on at
-          &#8377;500. Free doorstep delivery across India.
+          &#8377;500. Doorstep delivery across India.
         </p>
       </div>
     </section>

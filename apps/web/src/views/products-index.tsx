@@ -569,7 +569,7 @@ export default function ProductsPage() {
               <p className="text-muted-foreground text-base leading-relaxed">
                 FIPS-certified USB tokens to securely store your digital
                 signature. Required for all new DSC certificates as per CCA
-                guidelines. We sell all major token brands in India.
+                guidelines. We sell ePass, Proxkey & MToken tokens in India.
               </p>
             </div>
 
@@ -639,7 +639,7 @@ export default function ProductsPage() {
             </div>
 
             <p className="text-center text-xs text-muted-foreground mt-8">
-              USB token is mandatory for new DSC issuance as per CCA Guidelines. Free shipping across India.
+              USB token is mandatory for new DSC issuance as per CCA Guidelines. Doorstep delivery across India.
             </p>
           </div>
         </section>
@@ -657,8 +657,8 @@ export default function ProductsPage() {
                 },
                 {
                   icon: Truck,
-                  title: "Free Pan-India Shipping",
-                  desc: "USB token delivered free to any address in India",
+                  title: "Pan-India Delivery",
+                  desc: "USB token delivered to any address in India",
                 },
                 {
                   icon: Headset,

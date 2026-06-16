@@ -491,7 +491,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                       "Free re-issuance within validity period",
                       "Dedicated Support",
                       "Works on ALL government portals in India",
-                      "Free pan-India shipping for USB token",
+                      "Pan-India delivery for USB token",
                     ].map((item) => (
                       <li
                         key={item}
@@ -1499,8 +1499,8 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
 
             <div className="mt-8 max-w-4xl mx-auto text-center">
               <p className="text-xs text-muted-foreground">
-                All prices inclusive of taxes. Free USB token and free pan-India
-                shipping included. Prices subject to change without notice.
+                All prices inclusive of taxes. Free USB token and pan-India
+                delivery included. Prices subject to change without notice.
               </p>
             </div>
           </div>
@@ -1680,7 +1680,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="mt-10 grid grid-cols-3 gap-4 max-w-md mx-auto">
               {[
                 { icon: Clock, label: "1-Day Issuance" },
-                { icon: Truck, label: "Free Shipping" },
+                { icon: Truck, label: "Doorstep Delivery" },
                 { icon: Headset, label: "Dedicated Support" },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="text-center">

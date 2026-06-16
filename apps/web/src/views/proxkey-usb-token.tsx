@@ -403,7 +403,7 @@ export default function ProxkeyUSBTokenPage() {
                   </span>
                   <span className="text-sm text-white/40">incl. GST</span>
                   <span className="text-xs font-bold bg-brand-emerald/20 text-brand-emerald px-3 py-1 rounded-full">
-                    Free Shipping
+                    Doorstep Delivery
                   </span>
                 </div>
 
@@ -448,7 +448,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                     { icon: ShieldCheck, label: "FIPS Level 2" },
                     { icon: Cpu, label: "WatchData Chip" },
                     { icon: Globe, label: "All CAs Compatible" },
-                    { icon: Package, label: "Free Delivery" },
+                    { icon: Package, label: "Doorstep Delivery" },
                   ].map(({ icon: Icon, label }) => (
                     <div
                       key={label}
@@ -1044,7 +1044,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.06] border border-white/[0.08] mb-6">
               <UsbIcon className="w-3.5 h-3.5 text-brand-cobalt-bright" />
               <span className="text-xs font-semibold text-white/80 tracking-wide uppercase">
-                &#8377;500 &bull; Free Shipping &bull; FIPS Certified
+                &#8377;500 &bull; Doorstep Delivery &bull; FIPS Certified
               </span>
             </div>
 
@@ -1054,7 +1054,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <p className="text-base text-white/50 leading-relaxed mb-8 max-w-xl mx-auto">
               Get the FIPS 140-2 Level 2 certified Proxkey USB token delivered
               to your doorstep. Compatible with all CAs, all DSC types, and all
-              government portals. Free shipping across India.
+              government portals. Doorstep delivery across India.
             </p>
 
             <div className="flex flex-wrap justify-center gap-3 mb-8">
@@ -1092,7 +1092,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 "FIPS Level 2 Certified",
                 "WatchData Chip",
                 "All CAs Compatible",
-                "Free Shipping",
+                "Doorstep Delivery",
                 "Dedicated Support",
               ].map((item) => (
                 <span key={item} className="flex items-center gap-1.5">

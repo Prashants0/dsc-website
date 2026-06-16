@@ -45,7 +45,7 @@ const VALUES = [
 
 const TEAM_STATS = [
   { value: "4", label: "CA Partners" },
-  { value: "5+", label: "Token Brands" },
+  { value: "3", label: "Token Brands" },
   { value: "1000+", label: "Happy Customers" },
   { value: "1 Day", label: "Avg. Delivery" },
   { value: "Free", label: "Support" },
@@ -76,7 +76,7 @@ export default function AboutPage() {
               <p className="text-lg text-white/55 leading-relaxed max-w-2xl mx-auto">
                 India's trusted multi-CA Digital Signature reseller, partnering
                 with 4 government-licensed Certifying Authorities and selling
-                all major USB token brands.
+                ePass, Proxkey & MToken tokens.
               </p>
             </div>
           </div>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 <h2 className="font-display font-bold text-3xl sm:text-4xl text-foreground mb-6">Born From a Simple Frustration</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>Getting a Digital Signature Certificate in India used to be a painful process &mdash; confusing pricing, slow delivery, limited choices, and poor support. We experienced this first-hand as business owners who needed DSCs for our own companies.</p>
-                  <p>That's why we created <strong className="text-foreground">SignSecure</strong> &mdash; a platform that partners with <strong className="text-foreground">multiple</strong> government-licensed Certifying Authorities and sells <strong className="text-foreground">all major USB token brands</strong> to give you the widest choice, best prices, and fastest delivery.</p>
+                  <p>That's why we created <strong className="text-foreground">SignSecure</strong> &mdash; a platform that partners with <strong className="text-foreground">multiple</strong> government-licensed Certifying Authorities and sells <strong className="text-foreground">ePass, Proxkey & MToken tokens</strong> to give you the widest choice, best prices, and fastest delivery.</p>
                   <p>As an authorized Registration Authority and reseller for eMudhra, Capricorn, Pantasign, and SignX, plus authorized reseller of ePass 2003, Proxkey, and MToken tokens, we can offer what no single CA or token vendor can.</p>
                 </div>
               </div>

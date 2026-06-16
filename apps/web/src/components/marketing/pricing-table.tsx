@@ -54,7 +54,7 @@ const PRICING_DATA = [
 
 const ADDONS = [
   { item: "USB Crypto Token (New)", price: 500 },
-  { item: "Doorstep Delivery", price: 0, label: "FREE" },
+  { item: "Doorstep Delivery", price: 0, label: "Extra" },
   { item: "Re-issuance (within validity)", price: 0, label: "FREE" },
   { item: "WhatsApp + Phone Support", price: 0, label: "FREE" },
 ];
@@ -161,7 +161,7 @@ export function PricingTable() {
               </div>
               <span
                 className={`text-xs font-bold ${
-                  price === 0 ? "text-brand-emerald" : "text-foreground"
+                  label === "FREE" ? "text-brand-emerald" : "text-foreground"
                 }`}
               >
                 {label || `\u20B9${price}`}

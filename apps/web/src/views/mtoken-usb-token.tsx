@@ -156,7 +156,7 @@ const FAQ_DATA = [
   {
     question: "What is the price of MToken USB token?",
     answer:
-      "The MToken USB token is priced at Rs. 500 (inclusive of GST) at SignSecure. This makes it one of the most affordable FIPS-certified USB crypto tokens available in India. The price includes the token hardware, and shipping is free across India. There are no recurring fees or subscription charges — you buy it once and use it for the lifetime of the hardware.",
+      "The MToken USB token is priced at Rs. 500 (inclusive of GST) at SignSecure. This makes it one of the most affordable FIPS-certified USB crypto tokens available in India. The price includes the token hardware, and we deliver across India. There are no recurring fees or subscription charges — you buy it once and use it for the lifetime of the hardware.",
   },
   {
     question: "Is MToken compatible with all Certifying Authorities?",
@@ -476,7 +476,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 <div className="flex flex-wrap gap-4">
                   {[
                     { icon: ShieldCheck, label: "FIPS Certified" },
-                    { icon: Zap, label: "Free Shipping" },
+                    { icon: Zap, label: "Doorstep Delivery" },
                     { icon: Award, label: "1-Year Warranty" },
                   ].map(({ icon: Icon, label }) => (
                     <div
@@ -878,7 +878,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
 
             <p className="text-xs text-muted-foreground text-center mt-4">
               All tokens are available for purchase at SignSecure. Prices include
-              GST. Free shipping across India.
+              GST. Doorstep delivery across India.
             </p>
           </div>
         </section>
@@ -982,7 +982,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.06] border border-white/[0.08] mb-6">
               <UsbIcon className="w-3.5 h-3.5 text-brand-saffron" />
               <span className="text-xs font-semibold text-white/80 tracking-wide uppercase">
-                Just &#8377;500 — Free Shipping
+                Just &#8377;500 — Doorstep Delivery
               </span>
             </div>
 
@@ -1045,7 +1045,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               {[
                 "FIPS 140-2 Certified",
                 "All CAs Compatible",
-                "Free Shipping",
+                "Doorstep Delivery",
                 "1-Year Warranty",
                 "Dedicated Support",
               ].map((item) => (

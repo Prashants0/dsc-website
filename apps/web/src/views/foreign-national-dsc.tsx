@@ -448,7 +448,7 @@ const RELATED_PRODUCTS = [
     subtitle: "Hardware Security",
     price: "₹500",
     description:
-      "FIPS-certified USB tokens from HyperSecu, WatchData, MToken & more. Required for all new DSC certificates.",
+      "FIPS-certified USB tokens from HyperSecu, WatchData & MToken. Required for all new DSC certificates.",
     link: "/products#usb-tokens",
     badge: "Hardware",
     badgeColor: "bg-gray-600",

@@ -333,7 +333,7 @@ const KEY_FEATURES = [
     icon: UsbIcon,
     title: "Free USB Token Included",
     description:
-      "Every new DSC comes with a free FIPS-certified USB crypto token (ePass 2003 or equivalent) for secure storage. Token is shipped free across India.",
+      "Every new DSC comes with a free FIPS-certified USB crypto token (ePass 2003 or equivalent) for secure storage. Token is delivered across India.",
   },
   {
     icon: RefreshCw,
