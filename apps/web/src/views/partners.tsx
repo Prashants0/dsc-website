@@ -72,7 +72,7 @@ const AUTHORITIES = [
   },
   {
     name: "SignX",
-    logo: "/assets/partner-signx.svg",
+    logo: "/assets/partner-signx.png",
     tagline: "Fast & Reliable Digital Trust",
     description:
       "SignX is a CCA-licensed Certifying Authority offering fast, reliable Digital Signature Certificates for individuals and organizations across India. With quick paperless eKYC issuance and competitive pricing, SignX is a dependable choice for DSCs accepted on every government portal.",

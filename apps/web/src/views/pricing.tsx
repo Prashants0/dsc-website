@@ -369,7 +369,7 @@ export default function PricingPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="rounded-xl border-white/20 text-white hover:bg-white/10 h-12 px-8"
+                  className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white dark:bg-transparent dark:border-white/20 dark:hover:bg-white/10 h-12 px-8"
                 >
                   <span className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />

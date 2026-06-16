@@ -195,7 +195,7 @@ export default function AboutPage() {
                       { name: "eMudhra", desc: "India's largest CA. 100M+ certs issued.", logo: "/assets/partner-emudhra.png" },
                       { name: "Capricorn", desc: "Competitive pricing. Enterprise trusted.", logo: "/assets/partner-capricorn.png" },
                       { name: "Pantasign", desc: "Flexible, customizable DSC options.", logo: "/assets/partner-pantasign-white.svg" },
-                      { name: "SignX", desc: "Simple, reliable signing solutions.", logo: "/assets/partner-signx.svg" },
+                      { name: "SignX", desc: "Simple, reliable signing solutions.", logo: "/assets/partner-signx.png" },
                     ].map((partner) => (
                       <div key={partner.name} className="flex items-center gap-4 p-3 rounded-xl border border-border hover:border-brand-cobalt/20 transition-colors">
                         <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center shrink-0">

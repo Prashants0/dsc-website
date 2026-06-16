@@ -43,7 +43,7 @@ const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png", tagline: "India's Largest CA" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png", tagline: "Enterprise Trusted" },
   { name: "Pantasign", src: "/assets/partner-pantasign-white.svg", tagline: "Flexible Solutions" },
-  { name: "SignX", src: "/assets/partner-signx.svg", tagline: "Fast & Reliable" },
+  { name: "SignX", src: "/assets/partner-signx.png", tagline: "Fast & Reliable" },
 ];
 
 const TOKEN_BRANDS = [

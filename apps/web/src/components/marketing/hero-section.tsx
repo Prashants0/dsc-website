@@ -86,7 +86,7 @@ const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png" },
   { name: "Pantasign", src: "/assets/partner-pantasign-white.svg" },
-  { name: "SignX", src: "/assets/partner-signx.svg" },
+  { name: "SignX", src: "/assets/partner-signx.png" },
 ];
 
 /* ------------------------------------------------------------------ */
