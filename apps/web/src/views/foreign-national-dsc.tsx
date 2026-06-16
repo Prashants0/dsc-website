@@ -1057,7 +1057,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                   across time zones, and regulatory approval from CCA.
                 </p>
                 <p>
-                  Other major CAs in India — Capricorn (CDAC), Pantasign,
+                  Other major CAs in India — Capricorn, Pantasign,
                   and SignX — currently support only
                   Aadhaar-based eKYC and have not yet built the video
                   verification capability. As a result, eMudhra remains the sole

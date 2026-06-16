@@ -29,22 +29,6 @@ const TOKEN_DRIVERS = [
     mac: "#",
     description: "MToken USB crypto token driver. Lightweight and compact token driver package.",
   },
-  {
-    name: "TrustKey Token",
-    brand: "TrustKey",
-    logo: "/assets/token-trustkey.svg",
-    windows: "#",
-    mac: null,
-    description: "TrustKey USB token driver with modern chip architecture. Windows support.",
-  },
-  {
-    name: "SafeNet 5100",
-    brand: "Thales",
-    logo: "/assets/token-safenet-logo.png",
-    windows: "#",
-    mac: "#",
-    description: "SafeNet Authentication Client (SAC) for SafeNet 5100 enterprise tokens.",
-  },
 ];
 
 const UTILITIES = [

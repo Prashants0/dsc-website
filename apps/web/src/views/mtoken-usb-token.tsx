@@ -47,8 +47,6 @@ const COMPATIBILITY_CAS = [
   "Capricorn",
   "Pantasign",
   "SignX",
-  "n(Code) Solutions",
-  "CDAC",
 ];
 
 const COMPATIBILITY_PORTALS = [
@@ -163,7 +161,7 @@ const FAQ_DATA = [
   {
     question: "Is MToken compatible with all Certifying Authorities?",
     answer:
-      "Yes, the MToken USB token is compatible with all CCA-licensed Certifying Authorities in India, including eMudhra, Capricorn, Pantasign, SignX, n(Code) Solutions, and CDAC. You can store digital signature certificates from any of these CAs on your MToken. It supports the standard PKCS#11 and Microsoft CSP interfaces that all Indian CAs use for certificate enrollment and storage.",
+      "Yes, the MToken USB token is compatible with all CCA-licensed Certifying Authorities in India, including eMudhra, Capricorn, Pantasign, and SignX. You can store digital signature certificates from any of these CAs on your MToken. It supports the standard PKCS#11 and Microsoft CSP interfaces that all Indian CAs use for certificate enrollment and storage.",
   },
   {
     question: "Does MToken work on all government portals?",
@@ -228,88 +226,66 @@ const COMPARISON_TABLE = [
     mtoken: "Rs. 500",
     epass: "Rs. 500",
     proxkey: "Rs. 500",
-    trustkey: "Rs. 600",
-    safenet: "Rs. 1,200",
   },
   {
     feature: "Manufacturer",
     mtoken: "MToken",
     epass: "HyperSecu",
     proxkey: "WatchData",
-    trustkey: "TrustKey",
-    safenet: "Thales",
   },
   {
     feature: "FIPS Certification",
     mtoken: "FIPS 140-2",
     epass: "FIPS 140-2",
     proxkey: "FIPS 140-2 L2",
-    trustkey: "FIPS 140-2",
-    safenet: "FIPS 140-2 L3",
   },
   {
     feature: "Form Factor",
     mtoken: "Ultra-Compact",
     epass: "Standard",
     proxkey: "Standard",
-    trustkey: "Standard",
-    safenet: "Standard",
   },
   {
     feature: "Weight",
     mtoken: "~5g",
     epass: "~10g",
     proxkey: "~12g",
-    trustkey: "~10g",
-    safenet: "~15g",
   },
   {
     feature: "Storage",
     mtoken: "64 KB",
     epass: "64 KB",
     proxkey: "64 KB",
-    trustkey: "64 KB",
-    safenet: "80 KB",
   },
   {
     feature: "RSA Support",
     mtoken: "1024 / 2048",
     epass: "1024 / 2048",
     proxkey: "1024 / 2048",
-    trustkey: "2048 / 4096",
-    safenet: "2048 / 4096",
   },
   {
     feature: "USB Interface",
     mtoken: "USB 2.0",
     epass: "USB 2.0",
     proxkey: "USB 2.0",
-    trustkey: "USB 2.0",
-    safenet: "USB 2.0",
   },
   {
     feature: "Driver",
     mtoken: "Manual Install",
     epass: "Auto-Detect",
     proxkey: "Manual Install",
-    trustkey: "Manual Install",
-    safenet: "Manual Install",
   },
   {
     feature: "OS Support",
     mtoken: "Win / Mac / Linux",
     epass: "Win / Mac / Linux",
     proxkey: "Win / Mac / Linux",
-    trustkey: "Windows Only",
-    safenet: "Win / Mac / Linux",
   },
   {
     feature: "Best For",
     mtoken: "Budget & Portability",
     epass: "General Use",
     proxkey: "Durability",
-    trustkey: "Modern Security",
-    safenet: "Enterprise",
   },
 ];
 
@@ -329,22 +305,6 @@ const RELATED_PRODUCTS = [
     price: 500,
     link: "/products/proxkey-usb-token",
     badge: "Durable",
-  },
-  {
-    title: "TrustKey USB Token",
-    description:
-      "Modern chip architecture with enhanced security. Supports RSA 4096-bit keys.",
-    price: 600,
-    link: "/products/trustkey-usb-token",
-    badge: "Modern",
-  },
-  {
-    title: "SafeNet 5100 Token",
-    description:
-      "Enterprise-grade Thales token. FIPS 140-2 Level 3 for organizations needing premium security.",
-    price: 1200,
-    link: "/products/safenet-5100-usb-token",
-    badge: "Enterprise",
   },
 ];
 
@@ -889,12 +849,6 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                       <th className="text-center font-display font-bold px-5 py-4">
                         Proxkey
                       </th>
-                      <th className="text-center font-display font-bold px-5 py-4">
-                        TrustKey
-                      </th>
-                      <th className="text-center font-display font-bold px-5 py-4">
-                        SafeNet 5100
-                      </th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-border">
@@ -914,12 +868,6 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                         </td>
                         <td className="px-5 py-3.5 text-center text-muted-foreground">
                           {row.proxkey}
-                        </td>
-                        <td className="px-5 py-3.5 text-center text-muted-foreground">
-                          {row.trustkey}
-                        </td>
-                        <td className="px-5 py-3.5 text-center text-muted-foreground">
-                          {row.safenet}
                         </td>
                       </tr>
                     ))}

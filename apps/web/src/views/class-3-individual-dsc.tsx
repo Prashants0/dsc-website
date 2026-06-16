@@ -62,7 +62,7 @@ const CA_OPTIONS = [
   {
     id: "pantasign",
     name: "Pantasign",
-    logo: "/assets/partner-pantasign-white.svg",
+    logo: "/assets/partner-pantasign.png",
     description:
       "Pantasign (Pantasoft) is a CCA-licensed CA providing digital signature certificates with seamless online issuance.",
   },
@@ -408,7 +408,7 @@ const FAQ_DATA = [
   {
     question: "What USB token is provided with the DSC?",
     answer:
-      "Every Class 3 DSC from SignSecure comes with a free FIPS 140-2 certified USB crypto token. The standard token provided is the ePass 2003 Auto (by HyperSecu), which is the most widely used and compatible token in India. It works on Windows, macOS, and Linux, has auto-detect drivers, and is compatible with all government portals. If you prefer a different token brand (Proxkey, MToken, TrustKey, or SafeNet 5100), you can choose it during checkout for a small upgrade fee. The token securely stores your private key and ensures your digital signature cannot be copied or misused.",
+      "Every Class 3 DSC from SignSecure comes with a free FIPS 140-2 certified USB crypto token. The standard token provided is the ePass 2003 Auto (by HyperSecu), which is the most widely used and compatible token in India. It works on Windows, macOS, and Linux, has auto-detect drivers, and is compatible with all government portals. If you prefer a different token brand (Proxkey or MToken), you can choose it during checkout for a small upgrade fee. The token securely stores your private key and ensures your digital signature cannot be copied or misused.",
   },
 ];
 
@@ -440,7 +440,7 @@ const RELATED_PRODUCTS = [
   {
     title: "USB Crypto Tokens",
     description:
-      "FIPS-certified USB tokens from HyperSecu, WatchData, TrustKey & Thales for secure DSC storage.",
+      "FIPS-certified USB tokens from HyperSecu, WatchData & MToken for secure DSC storage.",
     price: 500,
     link: "/products#usb-tokens",
     badge: "Hardware",

@@ -269,7 +269,7 @@ const RELATED_PRODUCTS = [
     price: 500,
     link: "/products",
     description:
-      "FIPS-certified USB tokens from ePass, Proxkey, MToken, TrustKey & SafeNet.",
+      "FIPS-certified USB tokens from ePass, Proxkey & MToken.",
   },
 ];
 

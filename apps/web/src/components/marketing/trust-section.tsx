@@ -42,15 +42,14 @@ const TRUST_ITEMS = [
 const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png", tagline: "India's Largest CA" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png", tagline: "Enterprise Trusted" },
-  { name: "Pantasign", src: "/assets/partner-pantasign-white.svg", tagline: "Flexible Solutions" },
+  { name: "Pantasign", src: "/assets/partner-pantasign.png", tagline: "Flexible Solutions" },
   { name: "SignX", src: "/assets/partner-signx.png", tagline: "Fast & Reliable" },
 ];
 
 const TOKEN_BRANDS = [
-  { name: "ePass 2003", type: "Budget", src: "/assets/token-epass-logo.png" },
-  { name: "Proxkey", type: "Mid-range", src: "/assets/token-proxkey-logo.svg" },
-  { name: "MToken", type: "Budget", src: "/assets/token-mtoken.svg" },
-  { name: "TrustKey", type: "Mid-range", src: "/assets/token-trustkey.svg" },
+  { name: "ePass 2003", src: "/assets/token-epass-logo.png" },
+  { name: "Proxkey", src: "/assets/token-proxkey-logo.svg" },
+  { name: "MToken", src: "/assets/token-mtoken.svg" },
 ];
 
 export function TrustSection() {
@@ -112,7 +111,7 @@ export function TrustSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-5xl mx-auto">
             {CA_PARTNERS.map((ca) => (
               <a
                 key={ca.name}
@@ -123,7 +122,7 @@ export function TrustSection() {
                   <img
                     src={ca.src}
                     alt={ca.name}
-                    className="h-8 w-auto object-contain opacity-50 group-hover:opacity-90 transition-opacity"
+                    className="h-8 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity"
                     loading="lazy"
                   />
                 </div>
@@ -153,17 +152,14 @@ export function TrustSection() {
             {TOKEN_BRANDS.map((token) => (
               <div
                 key={token.name}
-                className="flex items-center gap-3 px-4 py-3 rounded-xl border border-border/50 bg-card hover:border-brand-cobalt/20 transition-all"
+                className="flex items-center justify-center gap-3 px-5 py-3 rounded-xl border border-border/50 bg-card hover:border-brand-cobalt/20 transition-all min-w-[160px]"
               >
                 <img
                   src={token.src}
                   alt={token.name}
-                  className="h-7 w-auto object-contain"
+                  className="h-6 w-auto max-w-[110px] object-contain"
                   loading="lazy"
                 />
-                <span className="text-[9px] text-muted-foreground/50 font-medium uppercase">
-                  {token.type}
-                </span>
               </div>
             ))}
           </div>

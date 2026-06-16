@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     q: "Do I need a USB token?",
-    a: "Yes, as per CCA guidelines, all new DSCs must be downloaded onto a FIPS-certified USB crypto token. If you already have a compatible token, you can use it. Otherwise, you can purchase a new token from us for Rs. 500 with free doorstep delivery. We sell ePass 2003, Proxkey, MToken, TrustKey and SafeNet 5100 tokens.",
+    a: "Yes, as per CCA guidelines, all new DSCs must be downloaded onto a FIPS-certified USB crypto token. If you already have a compatible token, you can use it. Otherwise, you can purchase a new token from us for Rs. 500 with free doorstep delivery. We sell ePass 2003, Proxkey and MToken tokens.",
   },
   {
     q: "What is your refund policy?",

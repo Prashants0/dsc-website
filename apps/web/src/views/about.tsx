@@ -30,7 +30,7 @@ const MILESTONES = [
   { year: "2021", title: "Multi-CA Partnerships", description: "Expanded to partner with 3 major Certifying Authorities, offering customers more choice and competitive pricing." },
   { year: "2022", title: "Pan-India Reach", description: "Established doorstep delivery network across all states. Launched free online WhatsApp support and added USB token sales." },
   { year: "2023", title: "Multi-CA Partners", description: "Became one of the few resellers authorized by multiple CAs including eMudhra, Capricorn, Pantasign & SignX." },
-  { year: "2024", title: "Token Brand Expansion", description: "Added ePass 2003, Proxkey, MToken, TrustKey & SafeNet 5100 to our USB token portfolio. Launched partner dashboard." },
+  { year: "2024", title: "Token Brand Expansion", description: "Added ePass 2003, Proxkey & MToken to our USB token portfolio. Launched partner dashboard." },
   { year: "2025", title: "Growing Strong", description: "Serving thousands of businesses and individuals across India with the fastest DSC delivery and widest CA selection in the market." },
 ];
 
@@ -108,7 +108,7 @@ export default function AboutPage() {
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>Getting a Digital Signature Certificate in India used to be a painful process &mdash; confusing pricing, slow delivery, limited choices, and poor support. We experienced this first-hand as business owners who needed DSCs for our own companies.</p>
                   <p>That's why we created <strong className="text-foreground">SignSecure</strong> &mdash; a platform that partners with <strong className="text-foreground">multiple</strong> government-licensed Certifying Authorities and sells <strong className="text-foreground">all major USB token brands</strong> to give you the widest choice, best prices, and fastest delivery.</p>
-                  <p>As an authorized Registration Authority and reseller for eMudhra, Capricorn, Pantasign, and SignX, plus authorized reseller of ePass 2003, Proxkey, MToken, TrustKey, and SafeNet 5100 tokens, we can offer what no single CA or token vendor can.</p>
+                  <p>As an authorized Registration Authority and reseller for eMudhra, Capricorn, Pantasign, and SignX, plus authorized reseller of ePass 2003, Proxkey, and MToken tokens, we can offer what no single CA or token vendor can.</p>
                 </div>
               </div>
 
@@ -170,7 +170,7 @@ export default function AboutPage() {
                     { title: "Best Price Guarantee", desc: "We compare rates across 4 CAs to always give you the most competitive price." },
                     { title: "Never Stuck with Downtime", desc: "If one CA's portal is down, we seamlessly process through another CA." },
                     { title: "Expert Recommendations", desc: "Different CAs have different strengths. We match you with the right one." },
-                    { title: "All Token Brands in One Place", desc: "ePass, Proxkey, MToken, TrustKey, SafeNet — buy any token brand from us." },
+                    { title: "All Token Brands in One Place", desc: "ePass, Proxkey, MToken — buy any token brand from us." },
                     { title: "Bulk & Enterprise Deals", desc: "Mix and match CAs and tokens for bulk orders to optimize cost and compatibility." },
                   ].map(({ title, desc }) => (
                     <div key={title} className="flex gap-3">
@@ -194,7 +194,7 @@ export default function AboutPage() {
                     {[
                       { name: "eMudhra", desc: "India's largest CA. 100M+ certs issued.", logo: "/assets/partner-emudhra.png" },
                       { name: "Capricorn", desc: "Competitive pricing. Enterprise trusted.", logo: "/assets/partner-capricorn.png" },
-                      { name: "Pantasign", desc: "Flexible, customizable DSC options.", logo: "/assets/partner-pantasign-white.svg" },
+                      { name: "Pantasign", desc: "Flexible, customizable DSC options.", logo: "/assets/partner-pantasign.png" },
                       { name: "SignX", desc: "Simple, reliable signing solutions.", logo: "/assets/partner-signx.png" },
                     ].map((partner) => (
                       <div key={partner.name} className="flex items-center gap-4 p-3 rounded-xl border border-border hover:border-brand-cobalt/20 transition-colors">

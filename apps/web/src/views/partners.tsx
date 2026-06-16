@@ -56,7 +56,7 @@ const AUTHORITIES = [
   },
   {
     name: "Pantasign",
-    logo: "/assets/partner-pantasign-white.svg",
+    logo: "/assets/partner-pantasign.png",
     tagline: "Flexible & Customizable DSC Solutions",
     description:
       "Pantasign is a well-established Certifying Authority in India, known for flexible and customizable digital signature solutions. Ideal for businesses needing scalable DSC solutions with quick turnaround and excellent customer support.",
@@ -191,8 +191,8 @@ export default function PartnersPage() {
                       {/* Main Info */}
                       <div className="lg:col-span-2">
                         <div className="flex items-start gap-4 mb-4">
-                          <div className="w-14 h-14 rounded-xl bg-muted flex items-center justify-center shrink-0">
-                            <img src={ca.logo} alt={ca.name} className="h-8 w-auto" />
+                          <div className="h-14 px-4 rounded-xl bg-white border border-border flex items-center justify-center shrink-0">
+                            <img src={ca.logo} alt={ca.name} className="h-8 w-auto max-w-[130px] object-contain" />
                           </div>
                           <div>
                             <h3 className="font-display font-bold text-xl text-foreground">{ca.name}</h3>

@@ -67,7 +67,7 @@ const CERTIFYING_AUTHORITIES = [
     slug: "pantasign",
     description:
       "Growing CA with a focus on simplicity and quick turnaround. Popular among small and medium businesses for compliance filings.",
-    logo: "/assets/partner-pantasign-white.svg",
+    logo: "/assets/partner-pantasign.png",
   },
   {
     name: "SignX",

@@ -124,7 +124,7 @@ const USAGE_STEPS = [
     step: 2,
     title: "Wait for Auto-Detection (Windows) or Install Driver (Mac/Linux)",
     description:
-      "On Windows 7, 8, 10, and 11, the ePass 2003 auto-detects and installs the necessary driver automatically. You will see a notification in the system tray. On macOS, you need to install SafeNet middleware or OpenSC. On Linux, install the OpenSC / PKCS#11 driver package.",
+      "On Windows 7, 8, 10, and 11, the ePass 2003 auto-detects and installs the necessary driver automatically. You will see a notification in the system tray. On macOS, you need to install the OpenSC / PKCS#11 driver. On Linux, install the OpenSC / PKCS#11 driver package.",
   },
   {
     step: 3,
@@ -204,7 +204,7 @@ const FAQ_DATA = [
   {
     question: "How do I install ePass 2003 driver?",
     answer:
-      "On Windows, the ePass 2003 typically requires no manual driver installation — it auto-detects when plugged in. If auto-detection fails (rare cases on older systems), you can download the manual driver from HyperSecu's official website or from our Downloads page at /downloads. On macOS, you need to install SafeNet Authentication Client or OpenSC middleware. On Linux, install the OpenSC package using your distribution's package manager (e.g., 'sudo apt install opensc' on Ubuntu/Debian). After installation, the token will be accessible via PKCS#11 interface.",
+      "On Windows, the ePass 2003 typically requires no manual driver installation — it auto-detects when plugged in. If auto-detection fails (rare cases on older systems), you can download the manual driver from HyperSecu's official website or from our Downloads page at /downloads. On macOS, you need to install the OpenSC / PKCS#11 driver. On Linux, install the OpenSC package using your distribution's package manager (e.g., 'sudo apt install opensc' on Ubuntu/Debian). After installation, the token will be accessible via PKCS#11 interface.",
   },
   {
     question: "What is the default PIN for ePass 2003?",
@@ -240,7 +240,7 @@ const FAQ_DATA = [
   {
     question: "Does ePass 2003 work on Mac?",
     answer:
-      "Yes, the ePass 2003 works on macOS, but it requires middleware installation since the auto-detect feature is specific to Windows. You need to install either SafeNet Authentication Client for Mac or OpenSC (an open-source smart card middleware). Once the middleware is installed, the ePass 2003 token will be recognized by the system and you can use it with web browsers like Safari, Chrome, and Firefox for DSC-based signing on government portals. macOS Ventura, Sonoma, and Sequoia are all supported.",
+      "Yes, the ePass 2003 works on macOS, but it requires middleware installation since the auto-detect feature is specific to Windows. You need to install the OpenSC / PKCS#11 driver (an open-source smart card middleware). Once the middleware is installed, the ePass 2003 token will be recognized by the system and you can use it with web browsers like Safari, Chrome, and Firefox for DSC-based signing on government portals. macOS Ventura, Sonoma, and Sequoia are all supported.",
   },
   {
     question: "What is auto-detect in ePass 2003?",
@@ -278,26 +278,6 @@ const COMPARISON_DATA = [
     compatibility: "All CAs",
     driver: "Manual install",
     storage: "64KB",
-    popular: false,
-  },
-  {
-    name: "TrustKey",
-    brand: "TrustKey",
-    price: 600,
-    fips: "Level 2",
-    compatibility: "All CAs",
-    driver: "Manual install",
-    storage: "64KB",
-    popular: false,
-  },
-  {
-    name: "SafeNet 5100",
-    brand: "Thales",
-    price: 1200,
-    fips: "Level 3",
-    compatibility: "All CAs",
-    driver: "Manual install",
-    storage: "80KB",
     popular: false,
   },
 ];
@@ -716,8 +696,8 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                     <strong className="text-foreground">
                       Requires middleware installation.
                     </strong>{" "}
-                    Install SafeNet Authentication Client for Mac or OpenSC
-                    (open-source smart card tools). Both provide the PKCS#11
+                    Install the OpenSC / PKCS#11 driver for Mac
+                    (open-source smart card tools). It provides the PKCS#11
                     interface required for the token.
                   </p>
                   <p>

@@ -323,7 +323,7 @@ export default function PricingPage() {
                 { q: "Are there any hidden charges?", a: "No. The prices listed include GST and all processing charges. The only optional add-on is the USB Crypto Token at Rs. 500 if you don't already have one." },
                 { q: "Why are your prices lower than the CA's own website?", a: "As a high-volume authorized reseller, we negotiate bulk rates with multiple CAs. We pass these savings directly to our customers while maintaining the same quality and validity of certificates." },
                 { q: "Can I renew my existing DSC at a discounted rate?", a: "Yes! Renewals are typically cheaper as you don't need a new USB token. Contact us for renewal-specific pricing." },
-                { q: "Do I need to buy a new USB token every time?", a: "No. If you already have a FIPS-certified USB token, you can reuse it for renewals. Only new token purchases are required if you don't have one. We sell ePass 2003, Proxkey, MToken, TrustKey & SafeNet 5100." },
+                { q: "Do I need to buy a new USB token every time?", a: "No. If you already have a FIPS-certified USB token, you can reuse it for renewals. Only new token purchases are required if you don't have one. We sell ePass 2003, Proxkey & MToken." },
                 { q: "Is there a bulk discount for organizations?", a: "Yes, we offer significant discounts for bulk DSC purchases (10+ certificates). Contact us for a custom quote." },
               ].map(({ q, a }) => (
                 <div key={q} className="rounded-xl border border-border bg-card p-5">

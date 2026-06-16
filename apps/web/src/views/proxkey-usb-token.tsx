@@ -142,7 +142,7 @@ const PROXKEY_ADVANTAGES = [
     icon: Zap,
     title: "Competitive Pricing",
     description:
-      "At just ₹500 inclusive of GST, the Proxkey token offers the same FIPS-certified security as premium tokens at a fraction of the cost. Compared to enterprise tokens like the SafeNet 5100 (₹1,200+), the Proxkey provides excellent value for individual professionals, CAs, and small businesses who need reliable DSC storage without premium pricing.",
+      "At just ₹500 inclusive of GST, the Proxkey token offers the same FIPS-certified security as premium tokens at a fraction of the cost. Compared to premium enterprise tokens, the Proxkey provides excellent value for individual professionals, CAs, and small businesses who need reliable DSC storage without premium pricing.",
   },
   {
     icon: Globe,
@@ -200,30 +200,6 @@ const TOKEN_COMPARISON = [
     chip: "Proprietary",
     popular: false,
     highlight: "Compact design. Budget-friendly. Growing in adoption across India.",
-  },
-  {
-    name: "TrustKey",
-    brand: "TrustKey",
-    price: 600,
-    fips: "FIPS 140-2 Level 2",
-    storage: "64KB",
-    driver: "Semi-auto with utility",
-    os: "Win / Mac / Linux",
-    chip: "TrustKey",
-    popular: false,
-    highlight: "Modern chip architecture. Enhanced security features. Slightly higher price point.",
-  },
-  {
-    name: "SafeNet 5100",
-    brand: "Thales",
-    price: 1200,
-    fips: "FIPS 140-2 Level 3",
-    storage: "72KB",
-    driver: "SafeNet Authentication Client",
-    os: "Win / Mac / Linux",
-    chip: "Thales",
-    popular: false,
-    highlight: "Enterprise-grade. FIPS Level 3 (highest). Premium build quality. Preferred by large organizations.",
   },
 ];
 
@@ -932,7 +908,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 (t) =>
                   t.name === "ePass 2003 Auto" ||
                   t.name === "Proxkey" ||
-                  t.name === "SafeNet 5100"
+                  t.name === "MToken"
               ).map((token) => (
                 <div
                   key={token.name}

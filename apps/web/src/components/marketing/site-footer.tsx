@@ -15,7 +15,7 @@ import {
 const CA_PARTNERS = [
   { name: "eMudhra", src: "/assets/partner-emudhra.png" },
   { name: "Capricorn", src: "/assets/partner-capricorn.png" },
-  { name: "Pantasign", src: "/assets/partner-pantasign-white.svg" },
+  { name: "Pantasign", src: "/assets/partner-pantasign.png" },
   { name: "SignX", src: "/assets/partner-signx.png" },
 ] as const;
 
@@ -24,7 +24,6 @@ const TOKEN_BRANDS = [
   { name: "ePass 2003", src: "/assets/token-epass-logo.png" },
   { name: "Proxkey", src: "/assets/token-proxkey-logo.svg" },
   { name: "MToken", src: "/assets/token-mtoken.svg" },
-  { name: "TrustKey", src: "/assets/token-trustkey.svg" },
 ] as const;
 
 /* ─── Government portals ─── */

@@ -258,16 +258,6 @@ const USB_TOKENS = [
     popular: false,
     detailHref: "/products/mtoken-usb-token",
   },
-  {
-    name: "TrustKey USB Token",
-    brand: "TrustKey",
-    logo: "/assets/token-trustkey.svg",
-    price: 600,
-    description: "Newer entrant with modern chip architecture. Enhanced security features.",
-    features: ["Modern chip", "Enhanced security", "Fast read/write", "Cross-platform"],
-    popular: false,
-    detailHref: "/products/trustkey-usb-token",
-  },
 ];
 
 const OTHER_PRODUCTS = [
