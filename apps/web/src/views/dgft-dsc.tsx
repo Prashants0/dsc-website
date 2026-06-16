@@ -156,10 +156,10 @@ const CERTIFYING_AUTHORITIES = [
     name: "eMudhra",
     desc: "India's largest Certifying Authority, licensed by CCA (Controller of Certifying Authorities). eMudhra issues DGFT-profile DSCs with Aadhaar-based eKYC for fast paperless issuance. Trusted by millions of businesses nationwide.",
     features: [
-      "Aadhaar eKYC - 30 minute issuance",
+      "Aadhaar eKYC - one-day issuance",
       "CCA licensed since 2008",
       "DGFT-specific certificate profile",
-      "Free online revocation support",
+      "Dedicated revocation support",
     ],
   },
   {
@@ -260,7 +260,7 @@ const FEATURES = [
   {
     icon: Zap,
     title: "Priority Processing",
-    desc: "DGFT DSC orders are processed on priority. With Aadhaar eKYC, your certificate can be issued in as little as 30 minutes.",
+    desc: "DGFT DSC orders are processed on priority. With Aadhaar eKYC, your certificate can be issued within a day.",
   },
 ];
 
@@ -291,7 +291,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "How long does DGFT DSC issuance take?",
-    a: "With Aadhaar-based eKYC, a DGFT DSC can be issued in as little as 30 minutes after all documents are submitted and verified. The eKYC process involves Aadhaar OTP verification, which is instant. However, if there are discrepancies in documents or if manual verification is required, it may take up to 24-48 hours. At SignSecure, we prioritize DGFT DSC orders to ensure the fastest possible turnaround.",
+    a: "With Aadhaar-based eKYC, a DGFT DSC can be issued within a day after all documents are submitted and verified. The eKYC process involves Aadhaar OTP verification, which is instant. However, if there are discrepancies in documents or if manual verification is required, it may take up to 24-48 hours. At SignSecure, we prioritize DGFT DSC orders to ensure the fastest possible turnaround.",
   },
   {
     q: "Can I use DGFT DSC on ICEGATE too?",
@@ -528,7 +528,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div>
                       <div className="font-display font-bold text-xl text-indigo-300">
-                        30 min
+                        1 Day
                       </div>
                       <div className="text-[10px] text-white/40 mt-1">
                         Issuance Time
@@ -1137,7 +1137,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               <span className="text-indigo-300">DGFT DSC</span> Today
             </h2>
             <p className="text-base text-white/50 leading-relaxed mb-8 max-w-xl mx-auto">
-              Get your DGFT Digital Signature Certificate in under 30 minutes.
+              Get your DGFT Digital Signature Certificate within a day.
               100% paperless process. Free USB token and pan-India shipping
               included.
             </p>
@@ -1171,7 +1171,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="mt-10 flex flex-wrap items-center justify-center gap-6 text-xs text-white/35">
               <span className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5" />
-                30-Min Issuance
+                1-Day Issuance
               </span>
               <span className="flex items-center gap-1.5">
                 <UsbIcon className="w-3.5 h-3.5" />
@@ -1183,7 +1183,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </span>
               <span className="flex items-center gap-1.5">
                 <Headset className="w-3.5 h-3.5" />
-                Free Online Support
+                Dedicated Support
               </span>
             </div>
           </div>

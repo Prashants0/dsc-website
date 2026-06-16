@@ -262,7 +262,7 @@ const FAQ_DATA = [
   {
     question: "What should I do if my Proxkey token is not detected?",
     answer:
-      "If your Proxkey token is not being detected, follow these steps: (1) Ensure the Proxkey driver is installed — unlike ePass 2003, Proxkey requires manual driver installation. (2) Try a different USB port, preferably a USB 2.0 port directly on the motherboard rather than a hub. (3) Restart your computer after installing the driver. (4) Check Device Manager on Windows to see if the token appears under 'Smart card readers' or 'Universal Serial Bus controllers'. (5) Reinstall the Proxkey middleware from our Downloads page. (6) On Windows 10/11, ensure the 'Smart Card' service is running (services.msc). If none of these steps work, contact our support team via WhatsApp at +91 79907 40623 for free online support.",
+      "If your Proxkey token is not being detected, follow these steps: (1) Ensure the Proxkey driver is installed — unlike ePass 2003, Proxkey requires manual driver installation. (2) Try a different USB port, preferably a USB 2.0 port directly on the motherboard rather than a hub. (3) Restart your computer after installing the driver. (4) Check Device Manager on Windows to see if the token appears under 'Smart card readers' or 'Universal Serial Bus controllers'. (5) Reinstall the Proxkey middleware from our Downloads page. (6) On Windows 10/11, ensure the 'Smart Card' service is running (services.msc). If none of these steps work, contact our support team via WhatsApp at +91 79907 40623 for dedicated support.",
   },
 ];
 
@@ -278,7 +278,7 @@ const RELATED_PRODUCTS = [
   {
     title: "Class 3 Individual DSC",
     description:
-      "Government-approved Class 3 DSC for individuals. Aadhaar eKYC, 30-min delivery.",
+      "Government-approved Class 3 DSC for individuals. Aadhaar eKYC, 1-day delivery.",
     price: 899,
     link: "/products/class-3-individual-dsc",
     badge: "For Individuals",
@@ -1093,7 +1093,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 "WatchData Chip",
                 "All CAs Compatible",
                 "Free Shipping",
-                "Free Online Support",
+                "Dedicated Support",
               ].map((item) => (
                 <span key={item} className="flex items-center gap-1.5">
                   <Check className="w-3 h-3 text-brand-cobalt-bright" />

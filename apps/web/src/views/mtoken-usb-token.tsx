@@ -1047,7 +1047,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 "All CAs Compatible",
                 "Free Shipping",
                 "1-Year Warranty",
-                "Free Online Support",
+                "Dedicated Support",
               ].map((item) => (
                 <span key={item} className="flex items-center gap-1.5">
                   <Check className="w-3 h-3 text-brand-saffron" />

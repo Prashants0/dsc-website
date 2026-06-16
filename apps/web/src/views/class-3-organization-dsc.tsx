@@ -222,7 +222,7 @@ const KEY_FEATURES = [
     icon: Zap,
     title: "Fast eKYC Process",
     description:
-      "Complete the entire application with Aadhaar-based eKYC. No need to visit any office or submit physical documents. Issued in under 30 minutes.",
+      "Complete the entire application with Aadhaar-based eKYC. No need to visit any office or submit physical documents. Issued within a day.",
   },
   {
     icon: Globe,
@@ -548,11 +548,11 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                     "Class 3 Digital Signature Certificate",
                     "Organization name printed on certificate",
                     "Aadhaar-based eKYC — 100% paperless",
-                    "Issued in under 30 minutes",
+                    "Issued within a day",
                     "Works on all government portals",
                     "2048-bit RSA encryption standard",
                     "Free re-issuance within validity",
-                    "Free Online Support",
+                    "Dedicated Support",
                     "Free USB token shipping (Pan India)",
                   ].map((item) => (
                     <li
@@ -570,7 +570,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 {/* Trust signals */}
                 <div className="mt-8 pt-6 border-t border-white/[0.06] grid grid-cols-3 gap-4">
                   {[
-                    { value: "30 min", label: "Delivery" },
+                    { value: "1 Day", label: "Delivery" },
                     { value: "4 CAs", label: "Available" },
                     { value: "100%", label: "Paperless" },
                   ].map((s) => (
@@ -795,7 +795,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </h2>
               <p className="text-muted-foreground text-base leading-relaxed">
                 Get your Organization DSC in 4 simple steps. The entire process
-                is online and typically completes in under 30 minutes.
+                is online and typically completes within a day.
               </p>
             </div>
 
@@ -1237,7 +1237,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-white/40">
               <span className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5" />
-                30-min delivery
+                1-day delivery
               </span>
               <span className="flex items-center gap-1.5">
                 <Lock className="w-3.5 h-3.5" />
@@ -1249,7 +1249,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </span>
               <span className="flex items-center gap-1.5">
                 <Headset className="w-3.5 h-3.5" />
-                Free Online Support
+                Dedicated Support
               </span>
             </div>
           </div>

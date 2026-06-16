@@ -35,16 +35,16 @@ const ADDONS = [
   { item: "USB Crypto Token (New)", price: 500, label: null, icon: ShieldCheck, description: "FIPS certified. ePass 2003, Proxkey, MToken & more." },
   { item: "Doorstep Delivery", price: 0, label: "FREE", icon: Truck, description: "Pan-India free shipping via courier." },
   { item: "Re-issuance (within validity)", price: 0, label: "FREE", icon: RefreshCw, description: "Lost token? Get a free replacement DSC." },
-  { item: "WhatsApp + Phone Support", price: 0, label: "FREE", icon: Headset, description: "Free online assistance via call or message." },
+  { item: "WhatsApp + Phone Support", price: 0, label: "FREE", icon: Headset, description: "Dedicated assistance via call or message." },
 ];
 
 const COMPETITOR_COMPARE = [
   { feature: "Class 3 Org DSC (1 Year)", us: "Rs. 1,099", eMudhra: "Rs. 1,550", others: "Rs. 1,400 - 2,000", winner: true },
   { feature: "Multiple CA Options", us: "4 CAs", eMudhra: "1 (Self)", others: "1-2 CAs", winner: true },
   { feature: "USB Token Brands", us: "5+ Brands", eMudhra: "1 Brand", others: "1-2 Brands", winner: true },
-  { feature: "Delivery Time", us: "30 Minutes", eMudhra: "30 Minutes", others: "1-24 Hours", winner: false },
+  { feature: "Delivery Time", us: "Within a Day", eMudhra: "Within a Day", others: "1-24 Hours", winner: false },
   { feature: "Free Re-issuance", us: "Yes", eMudhra: "Yes (eMudhra only)", others: "Limited", winner: true },
-  { feature: "Free Online WhatsApp Support", us: "Yes", eMudhra: "Limited", others: "No", winner: true },
+  { feature: "Dedicated WhatsApp Support", us: "Yes", eMudhra: "Limited", others: "No", winner: true },
   { feature: "Free Pan-India Shipping", us: "Yes", eMudhra: "Varies", others: "Extra charge", winner: true },
 ];
 

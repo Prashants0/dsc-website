@@ -44,12 +44,12 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for GST Registration & Return Filing | Class 3 Digital Signature | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for GST registration and return filing on gst.gov.in. Mandatory for companies & LLPs. Aadhaar eKYC, issued in 30 minutes, free online support. Authorized reseller of eMudhra, Capricorn, Pantasign & SignX.",
+      "Buy a Class 3 DSC for GST registration and return filing on gst.gov.in. Mandatory for companies & LLPs. Aadhaar eKYC, issued within a day, dedicated support. Authorized reseller of eMudhra, Capricorn, Pantasign & SignX.",
     keywords:
       "dsc for gst, gst dsc, digital signature for gst, class 3 dsc for gst, gst registration dsc, dsc for gst return filing, gst portal dsc",
     intro: [
       "A Digital Signature Certificate (DSC) is mandatory for companies and LLPs to register and file returns on the GST portal (gst.gov.in). A Class 3 DSC lets you authenticate every GST submission online, with the same legal validity as a handwritten signature.",
-      "While proprietors and individuals can use the EVC (OTP) option, a DSC is the faster, more reliable way to file — especially during peak return-filing periods. SignSecure issues GST-ready Class 3 certificates through a 100% paperless Aadhaar eKYC process in as little as 30 minutes.",
+      "While proprietors and individuals can use the EVC (OTP) option, a DSC is the faster, more reliable way to file — especially during peak return-filing periods. SignSecure issues GST-ready Class 3 certificates through a 100% paperless Aadhaar eKYC process within a day.",
     ],
     whoNeedsIt: [
       { title: "Companies & LLPs", desc: "A DSC is mandatory for all GST filings by companies and Limited Liability Partnerships." },
@@ -69,7 +69,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     faqs: [
       { q: "Is a DSC mandatory for GST?", a: "Yes. A Class 3 DSC is mandatory for all companies and LLPs to register and file returns on the GST portal. Proprietorships and individuals may use EVC (Aadhaar OTP) instead, but many still prefer a DSC for reliability." },
       { q: "Which class of DSC is required for GST?", a: "A Class 3 Digital Signature Certificate (Individual for proprietors/authorised signatories, or Organization for companies) is used for GST. Class 2 DSCs were discontinued by the CCA in 2021." },
-      { q: "How long does it take to get a DSC for GST?", a: "With Aadhaar-based paperless eKYC, your Class 3 DSC can be issued in as little as 30 minutes after verification. We then help you register and use it on the GST portal." },
+      { q: "How long does it take to get a DSC for GST?", a: "With Aadhaar-based paperless eKYC, your Class 3 DSC can be issued within a day after verification. We then help you register and use it on the GST portal." },
       { q: "Can I use one DSC for GST and other portals?", a: "Yes. A single Class 3 DSC works across GST, MCA, Income Tax, EPFO and virtually every other government portal — no separate certificate needed." },
     ],
     recommended: { label: "Class 3 Individual DSC", href: "/products/class-3-individual-dsc", price: 899, note: "Use Class 3 Organization DSC for company GST filings." },
@@ -85,7 +85,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for MCA / ROC Filing | Class 3 Digital Signature for Directors | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for MCA21 / ROC filings — company incorporation, DIR-3 KYC, AOC-4, MGT-7 and more. Required for directors & professionals. Issued in 30 minutes with free online support.",
+      "Buy a Class 3 DSC for MCA21 / ROC filings — company incorporation, DIR-3 KYC, AOC-4, MGT-7 and more. Required for directors & professionals. Issued within a day with dedicated support.",
     keywords:
       "dsc for mca, mca dsc, digital signature for mca, dsc for roc filing, director dsc, dir-3 kyc dsc, class 3 dsc for mca21",
     intro: [
@@ -126,7 +126,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for Income Tax e-Filing | Class 3 Digital Signature for ITR | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for Income Tax e-filing on incometax.gov.in — ITR, tax audit reports (3CA/3CB-3CD), Form 15CA/15CB & e-proceedings. Mandatory for companies & audit cases. Issued in 30 minutes.",
+      "Buy a Class 3 DSC for Income Tax e-filing on incometax.gov.in — ITR, tax audit reports (3CA/3CB-3CD), Form 15CA/15CB & e-proceedings. Mandatory for companies & audit cases. Issued within a day.",
     keywords:
       "dsc for income tax, income tax dsc, digital signature for itr, dsc for itr filing, class 3 dsc income tax, dsc for tax audit, register dsc income tax portal",
     intro: [
@@ -167,7 +167,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for e-Tendering & e-Procurement | Class 3 Combo Digital Signature | SignSecure",
     seoDescription:
-      "Buy a Class 3 Combo DSC (Signing + Encryption) for e-tendering and e-procurement on CPPP, state and PSU portals. Mandatory for online bidding. Issued in 30 minutes with free online support.",
+      "Buy a Class 3 Combo DSC (Signing + Encryption) for e-tendering and e-procurement on CPPP, state and PSU portals. Mandatory for online bidding. Issued within a day with dedicated support.",
     keywords:
       "dsc for e-tendering, e-tendering dsc, digital signature for tender, class 3 combo dsc, dsc for e-procurement, encryption dsc for tender, cppp dsc",
     intro: [
@@ -208,7 +208,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for EPFO Employer Portal | Class 3 Digital Signature | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for the EPFO Unified Employer Portal — register the authorised signatory, approve KYC, file ECR and attest transfer claims. Issued in 30 minutes with free online support.",
+      "Buy a Class 3 DSC for the EPFO Unified Employer Portal — register the authorised signatory, approve KYC, file ECR and attest transfer claims. Issued within a day with dedicated support.",
     keywords:
       "dsc for epfo, epfo dsc, digital signature for pf, employer dsc epfo, dsc for pf return, class 3 dsc epfo, epfo authorised signatory dsc",
     intro: [
@@ -234,7 +234,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
       { q: "Which DSC is required for EPFO?", a: "A Class 3 Organization DSC in the name of the establishment's authorised signatory is used to register and operate on the EPFO Unified Employer Portal." },
       { q: "Why register a DSC on the EPFO portal?", a: "Registering the authorised signatory's DSC enables digital approval of KYC, transfer claims and returns, replacing manual attestation." },
       { q: "Who should the EPFO DSC belong to?", a: "It should be the Class 3 DSC of the employer's authorised signatory (e.g. director, partner or proprietor) as declared to EPFO." },
-      { q: "How quickly can I get an EPFO DSC?", a: "A Class 3 DSC is issued in as little as 30 minutes via Aadhaar eKYC. We then help you register it on the EPFO portal." },
+      { q: "How quickly can I get an EPFO DSC?", a: "A Class 3 DSC is issued within a day via Aadhaar eKYC. We then help you register it on the EPFO portal." },
     ],
     recommended: { label: "Class 3 Organization DSC", href: "/products/class-3-organization-dsc", price: 1099, note: "EPFO uses the authorised signatory's Organization DSC." },
   },
@@ -249,7 +249,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for ICEGATE Customs Portal | Class 3 Digital Signature | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for ICEGATE (icegate.gov.in) — file Bill of Entry, Shipping Bill, e-Sanchit uploads and customs filings. For importers, exporters & customs brokers. Issued in 30 minutes.",
+      "Buy a Class 3 DSC for ICEGATE (icegate.gov.in) — file Bill of Entry, Shipping Bill, e-Sanchit uploads and customs filings. For importers, exporters & customs brokers. Issued within a day.",
     keywords:
       "dsc for icegate, icegate dsc, digital signature for customs, dsc for bill of entry, dsc for shipping bill, class 3 dsc icegate, customs broker dsc",
     intro: [
@@ -275,7 +275,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
       { q: "Which DSC is required for ICEGATE?", a: "A Class 3 Organization DSC is used to register and file on the ICEGATE customs portal. It authenticates Bills of Entry, Shipping Bills and document uploads." },
       { q: "Is a DSC mandatory for ICEGATE registration?", a: "Yes. ICEGATE registration and electronic customs filing require a valid Class 3 DSC for the importer, exporter or customs broker." },
       { q: "Can a customs broker use one DSC for many clients?", a: "Yes. A registered customs broker uses their own Class 3 DSC to file declarations on behalf of multiple importers/exporters." },
-      { q: "How fast can I get an ICEGATE DSC?", a: "Class 3 DSCs are issued in as little as 30 minutes via Aadhaar eKYC. We assist with ICEGATE portal registration afterwards." },
+      { q: "How fast can I get an ICEGATE DSC?", a: "Class 3 DSCs are issued within a day via Aadhaar eKYC. We assist with ICEGATE portal registration afterwards." },
     ],
     recommended: { label: "Class 3 Organization DSC", href: "/products/class-3-organization-dsc", price: 1099, note: "ICEGATE filings use an Organization Class 3 DSC." },
   },
@@ -290,7 +290,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for DGFT | IEC & Foreign Trade Digital Signature | SignSecure",
     seoDescription:
-      "Buy a DGFT DSC for the DGFT portal (dgft.gov.in) — IEC registration & modification, EPCG, Advance Authorisation, RoDTEP scrips and AD code. Organization-level Class 3. Issued fast with free online support.",
+      "Buy a DGFT DSC for the DGFT portal (dgft.gov.in) — IEC registration & modification, EPCG, Advance Authorisation, RoDTEP scrips and AD code. Organization-level Class 3. Issued fast with dedicated support.",
     keywords:
       "dsc for dgft, dgft dsc, digital signature for dgft, dsc for iec, iec dsc, class 3 dgft dsc, dgft import export dsc",
     intro: [
@@ -316,7 +316,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
       { q: "Which DSC is required for DGFT?", a: "A DGFT-specific organization-level Class 3 DSC is required. It is configured for the DGFT portal and used to digitally sign all import-export filings." },
       { q: "How is a DGFT DSC different from a normal DSC?", a: "A DGFT DSC carries the organization's details in the format the DGFT system expects and is mapped to your IEC, whereas a standard DSC is used for general portals like GST and MCA." },
       { q: "Do I need a DSC for IEC registration?", a: "Yes. Registering or modifying your IEC and filing any application on the DGFT portal requires a valid DGFT DSC." },
-      { q: "Can SignSecure help with EXIM filings?", a: "Yes. Beyond issuing the DGFT DSC, our team provides free online support and guidance for DGFT portal registration and filings." },
+      { q: "Can SignSecure help with EXIM filings?", a: "Yes. Beyond issuing the DGFT DSC, our team provides dedicated support and guidance for DGFT portal registration and filings." },
     ],
     recommended: { label: "DGFT DSC", href: "/products/dgft-dsc", price: 2199, note: "DGFT requires a dedicated organization DGFT DSC." },
   },
@@ -331,7 +331,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for Trademark e-Filing | Class 3 Digital Signature for IP India | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for trademark e-filing on the IP India portal (ipindia.gov.in) — TM-A applications, replies, oppositions & renewals. For agents, attorneys & businesses. Issued in 30 minutes.",
+      "Buy a Class 3 DSC for trademark e-filing on the IP India portal (ipindia.gov.in) — TM-A applications, replies, oppositions & renewals. For agents, attorneys & businesses. Issued within a day.",
     keywords:
       "dsc for trademark, trademark dsc, digital signature for trademark, dsc for ip india, class 3 dsc trademark, trademark agent dsc, tm filing dsc",
     intro: [
@@ -357,7 +357,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
       { q: "Which DSC is required for trademark filing?", a: "A Class 3 Digital Signature Certificate (Individual for agents/applicants) is used to digitally sign trademark applications and filings on the IP India portal." },
       { q: "Does the agent or the applicant's DSC sign the application?", a: "When a registered trademark agent files, their own Class 3 DSC is used. Applicants filing directly use their personal DSC." },
       { q: "Is e-filing with a DSC cheaper?", a: "Yes. The IP India portal charges a lower official fee for online (e-filed) trademark applications compared to physical filing." },
-      { q: "How quickly can I get a trademark DSC?", a: "A Class 3 DSC is issued in as little as 30 minutes via Aadhaar eKYC, with free online setup support." },
+      { q: "How quickly can I get a trademark DSC?", a: "A Class 3 DSC is issued within a day via Aadhaar eKYC, with dedicated setup support." },
     ],
     recommended: { label: "Class 3 Individual DSC", href: "/products/class-3-individual-dsc", price: 899, note: "Agents & applicants use an Individual Class 3 DSC." },
   },
@@ -372,7 +372,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for GeM Registration | Class 3 Digital Signature for Sellers | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for GeM (gem.gov.in) seller registration, e-signing contracts, bids and reverse auctions. For sellers, OEMs & service providers. Issued in 30 minutes with free online support.",
+      "Buy a Class 3 DSC for GeM (gem.gov.in) seller registration, e-signing contracts, bids and reverse auctions. For sellers, OEMs & service providers. Issued within a day with dedicated support.",
     keywords:
       "dsc for gem, gem dsc, digital signature for gem registration, gem seller dsc, class 3 dsc gem, gem.gov.in dsc, dsc for government e-marketplace",
     intro: [
@@ -398,7 +398,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
       { q: "Is a DSC mandatory for GeM registration?", a: "A Class 3 DSC is strongly recommended and is required for e-signing contracts, bids and high-value transactions on the Government e-Marketplace." },
       { q: "Which DSC is used for GeM?", a: "A Class 3 DSC (Individual or Organization depending on how you sell) is used for GeM seller registration and e-signing." },
       { q: "Can I e-sign GeM contracts with this DSC?", a: "Yes. The Class 3 DSC lets you digitally execute contracts, purchase orders and bid documents on GeM with legal validity." },
-      { q: "How quickly can I get a GeM DSC?", a: "A Class 3 DSC is issued in as little as 30 minutes via Aadhaar eKYC, with free online registration support." },
+      { q: "How quickly can I get a GeM DSC?", a: "A Class 3 DSC is issued within a day via Aadhaar eKYC, with dedicated registration support." },
     ],
     recommended: { label: "Class 3 Individual DSC", href: "/products/class-3-individual-dsc", price: 899, note: "Companies should choose Class 3 Organization DSC for GeM." },
   },
@@ -413,7 +413,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
     seoTitle:
       "DSC for IRCTC Agent | Class 3 Digital Signature for Travel Agents | SignSecure",
     seoDescription:
-      "Buy a Class 3 DSC for IRCTC agent registration and e-ticketing. Required for principal & sub-agents to onboard and sign agreements. Issued in 30 minutes with free online support.",
+      "Buy a Class 3 DSC for IRCTC agent registration and e-ticketing. Required for principal & sub-agents to onboard and sign agreements. Issued within a day with dedicated support.",
     keywords:
       "dsc for irctc, irctc dsc, digital signature for irctc agent, irctc agent dsc, class 3 dsc irctc, irctc principal agent dsc, travel agent dsc",
     intro: [
@@ -439,7 +439,7 @@ export const USE_CASE_DSC: Record<string, UseCaseDscData> = {
       { q: "Which DSC is required for an IRCTC agent?", a: "A Class 3 Digital Signature Certificate (Individual) is used for IRCTC agent registration and to sign the agent agreement." },
       { q: "Why does an IRCTC agent need a DSC?", a: "The DSC authenticates the agent's identity during onboarding and is used to digitally sign the agreement and compliance documents with legal validity." },
       { q: "Do both principal and sub-agents need a DSC?", a: "Yes. Principal agents and sub-agents both use a Class 3 DSC during registration and agreement execution." },
-      { q: "How quickly can I get an IRCTC DSC?", a: "A Class 3 DSC is issued in as little as 30 minutes via Aadhaar eKYC, with free online support for registration." },
+      { q: "How quickly can I get an IRCTC DSC?", a: "A Class 3 DSC is issued within a day via Aadhaar eKYC, with dedicated support for registration." },
     ],
     recommended: { label: "Class 3 Individual DSC", href: "/products/class-3-individual-dsc", price: 899, note: "IRCTC agents use an Individual Class 3 DSC." },
   },

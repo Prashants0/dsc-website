@@ -60,7 +60,7 @@ export function HowItWorks() {
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed max-w-lg mx-auto">
             No paperwork, no office visits. Our 100% online process gets your
-            Digital Signature Certificate issued in under 30 minutes.
+            Digital Signature Certificate issued within a day.
           </p>
         </div>
 

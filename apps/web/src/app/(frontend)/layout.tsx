@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default:
-      "SignSecure - Buy Digital Signature Certificate Online | Class 3 DSC in 30 Minutes",
+      "SignSecure - Buy Digital Signature Certificate Online | Class 3 DSC in a Day",
     template: "%s | SignSecure",
   },
   description:

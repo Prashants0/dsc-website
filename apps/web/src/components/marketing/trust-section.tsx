@@ -27,9 +27,9 @@ const TRUST_ITEMS = [
   },
   {
     icon: Clock,
-    title: "30-Minute Delivery",
+    title: "1-Day Delivery",
     description:
-      "From application to download in under 30 minutes with our streamlined paperless process.",
+      "From application to download within a day with our streamlined paperless process.",
   },
   {
     icon: Zap,

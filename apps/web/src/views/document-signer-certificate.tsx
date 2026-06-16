@@ -87,7 +87,7 @@ const HOW_IT_WORKS = [
   {
     step: 4,
     title: "Integrate & Start Signing",
-    desc: "Connect it to your application via PKCS#11/API and start signing documents in bulk. We provide free online setup support.",
+    desc: "Connect it to your application via PKCS#11/API and start signing documents in bulk. We provide dedicated setup support.",
   },
 ];
 
@@ -482,7 +482,7 @@ export default function DocumentSignerPage() {
               </a>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-xs text-white/40 mt-8">
-              {["CCA Approved", "HSM & Token Support", "ERP Integration", "Free Online Support"].map(
+              {["CCA Approved", "HSM & Token Support", "ERP Integration", "Dedicated Support"].map(
                 (item) => (
                   <span key={item} className="flex items-center gap-1.5">
                     <Headset className="w-3 h-3 text-teal-400" />

@@ -53,11 +53,11 @@ const PRODUCT_CATEGORIES = [
     ],
     features: [
       "Aadhaar-based eKYC - No paperwork",
-      "Issued in under 30 minutes",
+      "Issued in a Day",
       "Free re-issuance within validity",
       "Works on all government portals",
       "2048-bit RSA encryption",
-      "Free Online Support",
+      "Dedicated Support",
     ],
   },
   {
@@ -87,7 +87,7 @@ const PRODUCT_CATEGORIES = [
     features: [
       "Organization name on certificate",
       "Paperless application via eKYC",
-      "Issued in under 30 minutes",
+      "Issued in a Day",
       "Free re-issuance within validity",
       "Multiple CA options to choose from",
       "Dedicated account support",
@@ -222,7 +222,7 @@ const PRODUCT_CATEGORIES = [
       "Works with ERP, HR & accounting software",
       "HSM or USB token storage options",
       "Paperless organizational eKYC",
-      "Free Online Support",
+      "Dedicated Support",
     ],
   },
 ];
@@ -332,7 +332,7 @@ export default function ProductsPage() {
             <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4">
               {[
                 { value: "4", label: "Certifying Authorities" },
-                { value: "30 min", label: "Average Delivery" },
+                { value: "1 Day", label: "Average Delivery" },
                 { value: "100%", label: "Paperless Process" },
                 { value: "Pan India", label: "Token Delivery" },
               ].map((stat) => (
@@ -652,8 +652,8 @@ export default function ProductsPage() {
               {[
                 {
                   icon: Clock,
-                  title: "30-Min Delivery",
-                  desc: "From application to download in under 30 minutes",
+                  title: "1-Day Delivery",
+                  desc: "From application to download within a day",
                 },
                 {
                   icon: Truck,
@@ -662,7 +662,7 @@ export default function ProductsPage() {
                 },
                 {
                   icon: Headset,
-                  title: "Free Online Support",
+                  title: "Dedicated Support",
                   desc: "WhatsApp, phone & email support — free of charge",
                 },
                 {

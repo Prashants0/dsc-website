@@ -229,7 +229,7 @@ const FAQ_DATA = [
   {
     question: "How long does it take to get a Combo DSC?",
     answer:
-      "With our Aadhaar-based eKYC process, your Combo DSC can be issued in as little as 30 minutes. The process is completely paperless - you verify your identity using Aadhaar OTP, upload your PAN and a photograph, and both certificates (signing and encryption) are generated simultaneously. The certificates are then loaded onto your USB token. If you already have a USB token, you can start using your Combo DSC within the hour. If you need a new token shipped, add 2-3 business days for delivery.",
+      "With our Aadhaar-based eKYC process, your Combo DSC can be issued within a day. The process is completely paperless - you verify your identity using Aadhaar OTP, upload your PAN and a photograph, and both certificates (signing and encryption) are generated simultaneously. The certificates are then loaded onto your USB token. If you already have a USB token, you can start using your Combo DSC right after download. If you need a new token shipped, add 2-3 business days for delivery.",
   },
   {
     question: "What happens if my Combo DSC expires while a tender is ongoing?",
@@ -487,9 +487,9 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                       "Both certificates on one USB crypto token",
                       "FIPS 140-2 certified USB token included free",
                       "Aadhaar-based eKYC - no paperwork needed",
-                      "Issued in under 30 minutes",
+                      "Issued within a day",
                       "Free re-issuance within validity period",
-                      "Free Online Support",
+                      "Dedicated Support",
                       "Works on ALL government portals in India",
                       "Free pan-India shipping for USB token",
                     ].map((item) => (
@@ -512,7 +512,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4">
               {[
                 { value: "2-in-1", label: "Sign + Encrypt" },
-                { value: "30 min", label: "Delivery via eKYC" },
+                { value: "1 Day", label: "Delivery via eKYC" },
                 { value: "100%", label: "Tender Compliant" },
                 { value: "Free", label: "USB Token Included" },
               ].map((stat) => (
@@ -1280,7 +1280,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             <div className="mt-10 text-center">
               <p className="text-sm text-muted-foreground mb-4">
                 Average processing time:{" "}
-                <strong className="text-foreground">Under 30 minutes</strong>{" "}
+                <strong className="text-foreground">Within a day</strong>{" "}
                 from application to certificate download.
               </p>
               <a
@@ -1640,8 +1640,8 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             </h2>
             <p className="text-base text-white/50 leading-relaxed mb-4 max-w-xl mx-auto">
               Don't let the absence of an encryption certificate block your
-              tender submissions. Get your Class 3 Combo DSC issued in under 30
-              minutes with our Aadhaar eKYC process.
+              tender submissions. Get your Class 3 Combo DSC issued within a day
+              with our Aadhaar eKYC process.
             </p>
             <p className="text-lg text-white/70 font-display font-bold mb-8">
               Starting at just &#8377;1,599 with free USB token
@@ -1679,9 +1679,9 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
 
             <div className="mt-10 grid grid-cols-3 gap-4 max-w-md mx-auto">
               {[
-                { icon: Clock, label: "30-Min Issuance" },
+                { icon: Clock, label: "1-Day Issuance" },
                 { icon: Truck, label: "Free Shipping" },
-                { icon: Headset, label: "Free Online Support" },
+                { icon: Headset, label: "Dedicated Support" },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="text-center">
                   <Icon className="w-5 h-5 text-brand-saffron mx-auto mb-1.5" />

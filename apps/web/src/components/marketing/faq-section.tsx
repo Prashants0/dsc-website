@@ -14,7 +14,7 @@ const FAQS = [
   },
   {
     q: "How long does it take to get my DSC?",
-    a: "With our paperless Aadhaar eKYC process, most DSCs are issued within 30 minutes of completing the verification. In some cases, it may take up to 2-4 hours if additional verification is needed. We also offer same-day USB token delivery across major cities.",
+    a: "With our paperless Aadhaar eKYC process, most DSCs are issued within a day of completing the verification. In some cases it may take a little longer if additional verification is needed. We also offer same-day USB token delivery across major cities.",
   },
   {
     q: "What documents are required to apply for DSC?",

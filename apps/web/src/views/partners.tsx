@@ -62,7 +62,7 @@ const AUTHORITIES = [
       "Pantasign is a well-established Certifying Authority in India, known for flexible and customizable digital signature solutions. Ideal for businesses needing scalable DSC solutions with quick turnaround and excellent customer support.",
     stats: [
       { label: "Business Clients", value: "25K+" },
-      { label: "Avg. Issuance", value: "45 min" },
+      { label: "Avg. Issuance", value: "1 Day" },
       { label: "Satisfaction", value: "98%" },
     ],
     certifications: ["CCA Licensed", "ISO 27001", "Government Approved"],
@@ -77,7 +77,7 @@ const AUTHORITIES = [
     description:
       "SignX is a CCA-licensed Certifying Authority offering fast, reliable Digital Signature Certificates for individuals and organizations across India. With quick paperless eKYC issuance and competitive pricing, SignX is a dependable choice for DSCs accepted on every government portal.",
     stats: [
-      { label: "Processing Time", value: "< 1 hr" },
+      { label: "Processing Time", value: "1 Day" },
       { label: "Government Portals", value: "50+" },
       { label: "Pan India", value: "Yes" },
     ],

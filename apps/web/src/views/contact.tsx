@@ -34,7 +34,7 @@ export default function ContactPage() {
                 We're Here to <span className="text-gradient-cobalt">Help</span>
               </h1>
               <p className="text-base text-white/55 leading-relaxed max-w-xl mx-auto">
-                Have questions about DSCs, USB tokens, or need help choosing the right certificate? Our experts are available online for free support.
+                Have questions about DSCs, USB tokens, or need help choosing the right certificate? Our experts are available to support you.
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-[11px] text-muted-foreground uppercase tracking-wider font-medium">Working Hours</p>
-                      <p className="text-sm font-semibold text-foreground">Free Online Support</p>
+                      <p className="text-sm font-semibold text-foreground">Dedicated Support</p>
                       <p className="text-xs text-muted-foreground">Office: Mon-Sat 10AM-7PM</p>
                     </div>
                   </div>

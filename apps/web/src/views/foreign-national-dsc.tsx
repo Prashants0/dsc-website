@@ -373,7 +373,7 @@ const FAQ_DATA = [
   {
     question: "How long does it take to get Foreign National DSC?",
     answer:
-      "The typical timeline is 2–5 business days from application to DSC issuance, plus additional time for international courier delivery of the USB token. Breakdown: Document submission and pre-verification takes 1 day, video KYC scheduling takes 1–2 days, video KYC call and approval takes 1 day, DSC generation and token loading takes same day as approval, domestic shipping takes 2–3 days, and international shipping takes 5–7 days. So the total end-to-end time including international delivery is approximately 7–12 business days. This is significantly longer than regular DSC (which is issued in 30 minutes via Aadhaar eKYC) due to the manual verification process.",
+      "The typical timeline is 2–5 business days from application to DSC issuance, plus additional time for international courier delivery of the USB token. Breakdown: Document submission and pre-verification takes 1 day, video KYC scheduling takes 1–2 days, video KYC call and approval takes 1 day, DSC generation and token loading takes same day as approval, domestic shipping takes 2–3 days, and international shipping takes 5–7 days. So the total end-to-end time including international delivery is approximately 7–12 business days. This is significantly longer than regular DSC (which is issued within a day via Aadhaar eKYC) due to the manual verification process.",
   },
   {
     question: "Can I get DSC without Aadhaar?",
@@ -418,7 +418,7 @@ const RELATED_PRODUCTS = [
     subtitle: "For Companies & LLPs",
     price: "₹1,099",
     description:
-      "Organization-level DSC for Indian companies. Aadhaar eKYC, issued in 30 minutes. Choose from 4 Certifying Authorities.",
+      "Organization-level DSC for Indian companies. Aadhaar eKYC, issued within a day. Choose from 4 Certifying Authorities.",
     link: "/products#class3-org",
     badge: "Most Popular",
     badgeColor: "bg-brand-cobalt",
@@ -699,7 +699,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </p>
               <p>
                 For Indian residents, the process is straightforward — Aadhaar-based
-                eKYC allows DSC issuance in under 30 minutes with zero
+                eKYC allows DSC issuance within a day with zero
                 paperwork. However, <strong>foreign nationals</strong>{" "}
                 (non-Indian passport holders) and{" "}
                 <strong>Non-Resident Indians (NRIs)</strong> who do not possess a
@@ -935,7 +935,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 This multi-step manual process, combined with international
                 courier delivery of the USB token, means the end-to-end timeline
                 is 2–5 business days for DSC issuance plus 5–7 days for
-                international delivery — compared to 30 minutes for regular DSC.
+                international delivery — compared to a day for a regular DSC.
               </p>
             </div>
           </div>

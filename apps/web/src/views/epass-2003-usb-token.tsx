@@ -294,7 +294,7 @@ const RELATED_PRODUCTS = [
   {
     title: "Class 3 Individual DSC",
     description:
-      "Government-approved Class 3 Digital Signature for individuals. Aadhaar eKYC, 30-min delivery, free USB token included.",
+      "Government-approved Class 3 Digital Signature for individuals. Aadhaar eKYC, 1-day delivery, free USB token included.",
     price: 899,
     link: "/products/class-3-individual-dsc",
     badge: "Most Popular DSC",
@@ -1132,7 +1132,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 "Auto-Detect Driver",
                 "All CAs Supported",
                 "Free Shipping",
-                "Free Online Support",
+                "Dedicated Support",
               ].map((item) => (
                 <span key={item} className="flex items-center gap-1.5">
                   <Check className="w-3 h-3 text-brand-emerald" />

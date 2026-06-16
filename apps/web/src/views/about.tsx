@@ -28,7 +28,7 @@ import Link from "next/link";
 const MILESTONES = [
   { year: "2020", title: "Founded", description: "SignSecure started as a single-CA reseller with a vision to simplify digital signatures for Indian businesses." },
   { year: "2021", title: "Multi-CA Partnerships", description: "Expanded to partner with 3 major Certifying Authorities, offering customers more choice and competitive pricing." },
-  { year: "2022", title: "Pan-India Reach", description: "Established doorstep delivery network across all states. Launched free online WhatsApp support and added USB token sales." },
+  { year: "2022", title: "Pan-India Reach", description: "Established doorstep delivery network across all states. Launched dedicated WhatsApp support and added USB token sales." },
   { year: "2023", title: "Multi-CA Partners", description: "Became one of the few resellers authorized by multiple CAs including eMudhra, Capricorn, Pantasign & SignX." },
   { year: "2024", title: "Token Brand Expansion", description: "Added ePass 2003, Proxkey & MToken to our USB token portfolio. Launched partner dashboard." },
   { year: "2025", title: "Growing Strong", description: "Serving thousands of businesses and individuals across India with the fastest DSC delivery and widest CA selection in the market." },
@@ -36,8 +36,8 @@ const MILESTONES = [
 
 const VALUES = [
   { icon: Shield, title: "Trust & Security", description: "Every certificate we issue is backed by government-licensed CAs. Your digital identity is safe with us." },
-  { icon: Heart, title: "Customer First", description: "We exist to make DSC procurement painless. Free online support, transparent pricing, and genuine care." },
-  { icon: Zap, title: "Speed & Efficiency", description: "30-minute average delivery time. Because your business can't wait for paperwork and bureaucracy." },
+  { icon: Heart, title: "Customer First", description: "We exist to make DSC procurement painless. Dedicated support, transparent pricing, and genuine care." },
+  { icon: Zap, title: "Speed & Efficiency", description: "1-day average delivery time. Because your business can't wait for paperwork and bureaucracy." },
   { icon: Target, title: "Transparency", description: "No hidden fees, no surprise charges. What you see on our website is exactly what you pay." },
   { icon: Handshake, title: "Partnership Approach", description: "We don't just sell certificates. We help you understand which DSC is right for your specific needs." },
   { icon: TrendingUp, title: "Continuous Innovation", description: "Constantly improving our platform, processes, and partnerships to serve you better every day." },
@@ -47,7 +47,7 @@ const TEAM_STATS = [
   { value: "4", label: "CA Partners" },
   { value: "5+", label: "Token Brands" },
   { value: "1000+", label: "Happy Customers" },
-  { value: "30 min", label: "Avg. Delivery" },
+  { value: "1 Day", label: "Avg. Delivery" },
   { value: "Free", label: "Support" },
   { value: "98%", label: "Satisfaction" },
 ];

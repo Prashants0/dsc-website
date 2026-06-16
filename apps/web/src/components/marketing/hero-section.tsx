@@ -77,8 +77,8 @@ const DOC_SIGNER_PRICES: Record<string, number> = {
 
 const TRUST_BADGES = [
   { icon: ShieldCheck, text: "CCA Licensed" },
-  { icon: Clock, text: "DSC in 30 Min" },
-  { icon: Headphones, text: "Free Online Support" },
+  { icon: Clock, text: "DSC in a Day" },
+  { icon: Headphones, text: "Dedicated Support" },
   { icon: Lock, text: "2048-bit RSA" },
 ];
 
@@ -194,7 +194,7 @@ export function HeroSection() {
             <p className="text-lg leading-relaxed text-white/55 mb-8 animate-fade-up delay-200 max-w-lg">
               100% paperless. Government-approved Class&nbsp;3, DGFT &amp; Combo
               DSCs from eMudhra, Capricorn, Pantasign &amp; SignX.
-              Issued in <strong className="text-white/80">30&nbsp;minutes</strong>.
+              Issued <strong className="text-white/80">within a day</strong>.
             </p>
 
             {/* Trust badges row */}

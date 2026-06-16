@@ -5,7 +5,7 @@ const TESTIMONIALS = [
     name: "Rajesh Mehta",
     role: "CA, Mehta & Associates",
     location: "Mumbai",
-    text: "Fastest DSC process I've ever used. Got my Class 3 certificate in under 20 minutes. The paperless eKYC was seamless. Already recommended to 15+ clients.",
+    text: "Fastest DSC process I've ever used. Got my Class 3 certificate within a day. The paperless eKYC was seamless. Already recommended to 15+ clients.",
     rating: 5,
     initials: "RM",
   },

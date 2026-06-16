@@ -39,8 +39,8 @@ const STEPS = [
   },
   {
     step: 3,
-    title: "Get Your DSC in 30 Minutes",
-    desc: "Once verified, your certificate is issued and downloaded onto a secure USB token in as little as 30 minutes.",
+    title: "Get Your DSC in a Day",
+    desc: "Once verified, your certificate is issued and downloaded onto a secure USB token within a day.",
   },
   {
     step: 4,
@@ -51,9 +51,9 @@ const STEPS = [
 
 /* Generic "why SignSecure" benefits. */
 const WHY_US = [
-  { icon: Clock, title: "Issued in 30 Minutes", desc: "Fast, paperless Aadhaar eKYC — get your DSC the same day." },
+  { icon: Clock, title: "Issued in a Day", desc: "Fast, paperless Aadhaar eKYC — get your DSC the same day." },
   { icon: BadgeCheck, title: "4 Certifying Authorities", desc: "Choose from eMudhra, Capricorn, Pantasign & SignX." },
-  { icon: Headset, title: "Free Online Support", desc: "Free help with installation, registration & portal setup." },
+  { icon: Headset, title: "Dedicated Support", desc: "Free help with installation, registration & portal setup." },
   { icon: ShieldCheck, title: "CCA Approved", desc: "Government-licensed Class 3 certificates with full legal validity." },
 ];
 
@@ -253,8 +253,8 @@ export function UseCaseDscPage({ data }: { data: UseCaseDscData }) {
                 How to Get Your {data.title}
               </h2>
               <p className="text-muted-foreground text-base leading-relaxed">
-                A simple, 100% paperless process — from application to download in
-                under 30 minutes.
+                A simple, 100% paperless process — from application to download
+                within a day.
               </p>
             </div>
             <div className="space-y-4">
@@ -426,7 +426,7 @@ export function UseCaseDscPage({ data }: { data: UseCaseDscData }) {
               </a>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-xs text-white/40 mt-8">
-              {["CCA Approved", "Issued in 30 Minutes", "Free Online Support", "Pan-India Delivery"].map(
+              {["CCA Approved", "Issued in a Day", "Dedicated Support", "Pan-India Delivery"].map(
                 (item) => (
                   <span key={item} className="flex items-center gap-1.5">
                     <FileCheck className="w-3 h-3 text-brand-emerald" />

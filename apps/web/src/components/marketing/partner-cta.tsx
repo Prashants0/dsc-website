@@ -79,7 +79,7 @@ export function PartnerCTA() {
             {[
               { value: "10,000+", label: "Certificates Sold" },
               { value: "500+", label: "Active Partners" },
-              { value: "30 Min", label: "Avg. Delivery Time" },
+              { value: "1 Day", label: "Avg. Delivery Time" },
               { value: "4.9/5", label: "Customer Rating" },
             ].map(({ value, label }) => (
               <div

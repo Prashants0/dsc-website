@@ -145,7 +145,7 @@ function AnnouncementBar() {
             <span className="mx-2 text-white/30">|</span>
             CCA Approved
             <span className="mx-2 text-white/30">|</span>
-            DSC in 30 Minutes
+            DSC in a Day
           </span>
         </div>
 

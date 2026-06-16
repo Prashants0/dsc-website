@@ -325,9 +325,9 @@ const KEY_FEATURES = [
   },
   {
     icon: Zap,
-    title: "30-Minute Delivery",
+    title: "1-Day Delivery",
     description:
-      "From the moment you complete eKYC and payment, your DSC is generated and ready for download in under 30 minutes. No waiting days or weeks.",
+      "From the moment you complete eKYC and payment, your DSC is generated and ready for download within a day. No waiting days or weeks.",
   },
   {
     icon: UsbIcon,
@@ -343,7 +343,7 @@ const KEY_FEATURES = [
   },
   {
     icon: Headset,
-    title: "Free Online Support",
+    title: "Dedicated Support",
     description:
       "Our DSC support team is available online via WhatsApp, phone, and email. Get help with installation, portal configuration, or any technical issues.",
   },
@@ -363,7 +363,7 @@ const FAQ_DATA = [
   {
     question: "How long does it take to get a Class 3 DSC?",
     answer:
-      "With our Aadhaar-based eKYC process, you can receive your Class 3 DSC in as little as 30 minutes from the time you complete the application and payment. The eKYC verification is instant — you simply enter your Aadhaar number, receive an OTP on your registered mobile, and your identity is verified. Once verified, the certificate is generated and available for download. The USB token is shipped separately and typically arrives within 2-3 business days via courier, though the DSC itself can be used immediately on download.",
+      "With our Aadhaar-based eKYC process, you can receive your Class 3 DSC within a day from the time you complete the application and payment. The eKYC verification is instant — you simply enter your Aadhaar number, receive an OTP on your registered mobile, and your identity is verified. Once verified, the certificate is generated and available for download. The USB token is shipped separately and typically arrives within 2-3 business days via courier, though the DSC itself can be used immediately on download.",
   },
   {
     question: "What documents are required for a Class 3 DSC?",
@@ -515,7 +515,7 @@ export default function Class3IndividualDSCPage() {
                 <p className="text-base text-white/45 leading-relaxed mb-8 max-w-xl">
                   Government-approved Class 3 DSC accepted on GST, Income Tax,
                   MCA, EPFO, e-Tendering and all Indian government portals.
-                  Aadhaar eKYC-based issuance in under 30 minutes.
+                  Aadhaar eKYC-based issuance within a day.
                 </p>
 
                 {/* Price */}
@@ -611,7 +611,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                 {/* Trust Badges */}
                 <div className="flex flex-wrap gap-4">
                   {[
-                    { icon: Zap, label: "30-Min Delivery" },
+                    { icon: Zap, label: "1-Day Delivery" },
                     { icon: Fingerprint, label: "100% Paperless" },
                     { icon: UsbIcon, label: "Free USB Token" },
                   ].map(({ icon: Icon, label }) => (
@@ -642,7 +642,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
                       { label: "Verification", value: "Aadhaar OTP eKYC" },
                       { label: "Validity Options", value: "1 / 2 / 3 Years" },
                       { label: "Token", value: "Free USB Token (FIPS 140-2)" },
-                      { label: "Delivery", value: "Under 30 minutes" },
+                      { label: "Delivery", value: "Within a day" },
                       { label: "Legal Validity", value: "IT Act 2000, CCA approved" },
                     ].map(({ label, value }) => (
                       <div
@@ -859,7 +859,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
               </h2>
               <p className="text-muted-foreground text-base leading-relaxed">
                 Get your Class 3 Individual DSC in 4 simple steps. The entire
-                process is online and takes under 30 minutes.
+                process is online and completes within a day.
               </p>
             </div>
 
@@ -1154,7 +1154,7 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
             </h2>
             <p className="text-base text-white/50 leading-relaxed mb-8 max-w-xl mx-auto">
               Get your government-approved Class 3 Digital Signature Certificate
-              in under 30 minutes. 100% online, paperless, and delivered to your
+              within a day. 100% online, paperless, and delivered to your
               doorstep.
             </p>
 
@@ -1190,11 +1190,11 @@ className="rounded-xl bg-transparent border-white/20 text-white hover:bg-white/1
 
             <div className="flex flex-wrap justify-center gap-6 text-xs text-white/40">
               {[
-                "30-Min Delivery",
+                "1-Day Delivery",
                 "Free USB Token",
                 "100% Paperless",
                 "4 CA Options",
-                "Free Online Support",
+                "Dedicated Support",
               ].map((item) => (
                 <span key={item} className="flex items-center gap-1.5">
                   <Check className="w-3 h-3 text-brand-cobalt-bright" />

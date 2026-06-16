@@ -41,8 +41,8 @@ const BENEFITS = [
   },
   {
     icon: Zap,
-    title: "Fast 30-Minute Issuance",
-    desc: "Serve your customers instantly with paperless Aadhaar eKYC and certificates issued in as little as 30 minutes.",
+    title: "Fast 1-Day Issuance",
+    desc: "Serve your customers instantly with paperless Aadhaar eKYC and certificates issued within a day.",
   },
   {
     icon: BadgeCheck,
